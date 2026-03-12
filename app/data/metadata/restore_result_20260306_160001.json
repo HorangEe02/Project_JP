@@ -1,0 +1,8 @@
+{
+  "action": "restore_original",
+  "timestamp": "2026-03-06T16:00:01.780293",
+  "text_format": "{ocr_text} {category}",
+  "model": "intfloat/multilingual-e5-small",
+  "total_processed": 61473,
+  "elapsed_seconds": 54.15
+}

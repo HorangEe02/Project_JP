@@ -1,0 +1,55 @@
+# ============================================================
+#  CAD Vision — Docker Compose
+#  app (Streamlit + ML) + ollama (VLM 서버)
+# ============================================================
+#
+#  사용법:
+#    ./docker-start.sh          # 빌드 + 시작 (권장)
+#    ./docker-start.sh --build  # 강제 재빌드
+#    ./docker-start.sh --down   # 중지
+#
+#  ⚠️ 주의: 프로젝트가 공백이 포함된 경로에 있으므로
+#    bind mount 대신 named volume을 사용합니다.
+#    데이터는 Docker 이미지에서 자동 초기화됩니다.
+#
+
+services:
+  # ── Streamlit 앱 ──────────────────────────────────────
+  app:
+    build: .
+    container_name: cad-vision-app
+    ports:
+      - "8501:8501"
+    volumes:
+      # Named volumes — 공백 경로 문제 우회
+      # 첫 실행 시 Docker 이미지 내용으로 자동 시딩됨
+      - cad-vision-data:/app/data
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=qwen3-vl:8b
+      - CHROMA_PERSIST_DIR=/app/data/vector_store
+      - UPLOAD_DIR=/app/data/sample_drawings
+      - DRAWING_PATH_REMAP_FROM=/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data
+      - DRAWING_PATH_REMAP_TO=/app/data/external_drawings
+      - YOLO_CLS_MODEL_PATH=/app/models/yolo_cls_v2_best.pt
+      - YOLO_CLS_ENABLED=true
+    depends_on:
+      ollama:
+        condition: service_started
+    restart: unless-stopped
+
+  # ── Ollama VLM 서버 ──────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: cad-vision-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  cad-vision-data:
+    name: cad-vision-data
+  ollama_data:
+    name: cad-vision-ollama-data

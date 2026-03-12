@@ -1,0 +1,6420 @@
+{
+  "num_queries": 142,
+  "avg_recall": {
+    "1": 0.0326,
+    "3": 0.0891,
+    "5": 0.1456,
+    "10": 0.3028
+  },
+  "avg_precision": {
+    "1": 0.2535,
+    "3": 0.2465,
+    "5": 0.2451,
+    "10": 0.2423
+  },
+  "mrr": 0.2634,
+  "map_at": {
+    "1": 0.2535,
+    "3": 0.2482,
+    "5": 0.2507,
+    "10": 0.2592
+  },
+  "latency": {
+    "avg": 0.1045,
+    "p50": 0.0313,
+    "p95": 0.0638
+  },
+  "by_category": {},
+  "query_details": [
+    {
+      "query": "shaft precision ground",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 9.4372,
+      "top_results": [
+        {
+          "id": "b7310a78",
+          "cat": "Shafts",
+          "score": 0.2974
+        },
+        {
+          "id": "e15e3d42",
+          "cat": "Shafts",
+          "score": 0.2974
+        },
+        {
+          "id": "b341c3e9",
+          "cat": "Shafts",
+          "score": 0.2925
+        },
+        {
+          "id": "04070aba",
+          "cat": "Shafts",
+          "score": 0.2925
+        },
+        {
+          "id": "dc30f3c5",
+          "cat": "Shafts",
+          "score": 0.2868
+        }
+      ]
+    },
+    {
+      "query": "샤프트 정밀 연삭",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0781,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.442
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4353
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4352
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4331
+        },
+        {
+          "id": "679d680b",
+          "cat": "Actuator",
+          "score": 0.4254
+        }
+      ]
+    },
+    {
+      "query": "shaft holder support block",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0352,
+      "top_results": [
+        {
+          "id": "e374cc8f",
+          "cat": "Holders_for_Shaft",
+          "score": 0.361
+        },
+        {
+          "id": "284b1b69",
+          "cat": "Holders_for_Shaft",
+          "score": 0.361
+        },
+        {
+          "id": "ddf15b52",
+          "cat": "Holders_for_Shaft",
+          "score": 0.3598
+        },
+        {
+          "id": "6aef37ad",
+          "cat": "Holders_for_Shaft",
+          "score": 0.3598
+        },
+        {
+          "id": "fe28270f",
+          "cat": "Holders_for_Shaft",
+          "score": 0.3597
+        }
+      ]
+    },
+    {
+      "query": "샤프트 홀더 서포트",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0631,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.445
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4386
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4357
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.4308
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4299
+        }
+      ]
+    },
+    {
+      "query": "set collar clamp type",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0686,
+      "top_results": [
+        {
+          "id": "ffc1795d",
+          "cat": "Levers",
+          "score": 0.3192
+        },
+        {
+          "id": "1ae193ba",
+          "cat": "Levers",
+          "score": 0.3183
+        },
+        {
+          "id": "5145d2f0",
+          "cat": "Levers",
+          "score": 0.3109
+        },
+        {
+          "id": "043a88ac",
+          "cat": "Levers",
+          "score": 0.309
+        },
+        {
+          "id": "01d5b08a",
+          "cat": "Levers",
+          "score": 0.3064
+        }
+      ]
+    },
+    {
+      "query": "세트 칼라 고정",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0317,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4157
+        },
+        {
+          "id": "e4b4c285",
+          "cat": "Couplings",
+          "score": 0.4087
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4084
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4067
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.402
+        }
+      ]
+    },
+    {
+      "query": "linear bushing sliding",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0352,
+      "top_results": [
+        {
+          "id": "3dfaf7a7",
+          "cat": "Linear_Bushings",
+          "score": 0.3657
+        },
+        {
+          "id": "8cebd156",
+          "cat": "Linear_Bushings",
+          "score": 0.3657
+        },
+        {
+          "id": "1061600d",
+          "cat": "Linear_Bushings",
+          "score": 0.3468
+        },
+        {
+          "id": "aa3b96d1",
+          "cat": "Linear_Bushings",
+          "score": 0.3468
+        },
+        {
+          "id": "548c0c9c",
+          "cat": "Linear_Bushings",
+          "score": 0.3168
+        }
+      ]
+    },
+    {
+      "query": "리니어 부싱 슬라이딩",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0638,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4251
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.422
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4203
+        },
+        {
+          "id": "0e36a517",
+          "cat": "Couplings",
+          "score": 0.4102
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4085
+        }
+      ]
+    },
+    {
+      "query": "ball spline rotary motion",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.3
+      },
+      "reciprocal_rank": 0.1429,
+      "latency": 0.0356,
+      "top_results": [
+        {
+          "id": "4d7dc3f5",
+          "cat": "Ball_Screws",
+          "score": 0.3369
+        },
+        {
+          "id": "cacdabeb",
+          "cat": "Ball_Screws",
+          "score": 0.3369
+        },
+        {
+          "id": "1be4ea8e",
+          "cat": "Ball_Screws",
+          "score": 0.3291
+        },
+        {
+          "id": "35fc002a",
+          "cat": "Ball_Screws",
+          "score": 0.3164
+        },
+        {
+          "id": "b7e62cfc",
+          "cat": "Ball_Screws",
+          "score": 0.312
+        }
+      ]
+    },
+    {
+      "query": "볼 스플라인 회전 직선 운동",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0337,
+      "top_results": [
+        {
+          "id": "29d786ec",
+          "cat": "Rollers",
+          "score": 0.3275
+        },
+        {
+          "id": "b0a895a7",
+          "cat": "Actuator",
+          "score": 0.3218
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3149
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3117
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3085
+        }
+      ]
+    },
+    {
+      "query": "oil free bushing self lubricating",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0347,
+      "top_results": [
+        {
+          "id": "98787d53",
+          "cat": "Oil_Free_Bushings",
+          "score": 0.2871
+        },
+        {
+          "id": "32599f51",
+          "cat": "Oil_Free_Bushings",
+          "score": 0.2868
+        },
+        {
+          "id": "62cac92d",
+          "cat": "Oil_Free_Bushings",
+          "score": 0.2861
+        },
+        {
+          "id": "821e0e95",
+          "cat": "Oil_Free_Bushings",
+          "score": 0.2847
+        },
+        {
+          "id": "261db896",
+          "cat": "Oil_Free_Bushings",
+          "score": 0.2843
+        }
+      ]
+    },
+    {
+      "query": "오일리스 부싱 무급유",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0312,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4464
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4335
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4332
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4286
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4271
+        }
+      ]
+    },
+    {
+      "query": "actuator pneumatic electric",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0336,
+      "top_results": [
+        {
+          "id": "13012ce4",
+          "cat": "Rotary_Shafts",
+          "score": 0.2163
+        },
+        {
+          "id": "bdf0921b",
+          "cat": "Rotary_Shafts",
+          "score": 0.214
+        },
+        {
+          "id": "25a95fde",
+          "cat": "Rotary_Shafts",
+          "score": 0.2126
+        },
+        {
+          "id": "2800e14f",
+          "cat": "Rotary_Shafts",
+          "score": 0.2102
+        },
+        {
+          "id": "bd0feee3",
+          "cat": "Rotary_Shafts",
+          "score": 0.2089
+        }
+      ]
+    },
+    {
+      "query": "액추에이터 구동",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1429,
+        "3": 0.4286,
+        "5": 0.7143,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 0.7
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0298,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4437
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4391
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4315
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.4299
+        },
+        {
+          "id": "04f4f9e7",
+          "cat": "Actuator",
+          "score": 0.4219
+        }
+      ]
+    },
+    {
+      "query": "linear guide rail block",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0332,
+      "top_results": [
+        {
+          "id": "6b5303df",
+          "cat": "Slide_Rails",
+          "score": 0.3324
+        },
+        {
+          "id": "ce0ca5b5",
+          "cat": "Slide_Rails",
+          "score": 0.3301
+        },
+        {
+          "id": "004f17cf",
+          "cat": "Slide_Rails",
+          "score": 0.3295
+        },
+        {
+          "id": "b8958ad6",
+          "cat": "Slide_Rails",
+          "score": 0.3256
+        },
+        {
+          "id": "1fdcac0b",
+          "cat": "Slide_Rails",
+          "score": 0.3256
+        }
+      ]
+    },
+    {
+      "query": "리니어 가이드 레일 블록",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0321,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4181
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4133
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4084
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3994
+        },
+        {
+          "id": "e4b4c285",
+          "cat": "Couplings",
+          "score": 0.3976
+        }
+      ]
+    },
+    {
+      "query": "slide rail drawer telescopic",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0382,
+      "top_results": [
+        {
+          "id": "ce0ca5b5",
+          "cat": "Slide_Rails",
+          "score": 0.3071
+        },
+        {
+          "id": "1fdcac0b",
+          "cat": "Slide_Rails",
+          "score": 0.3
+        },
+        {
+          "id": "0fce8fb1",
+          "cat": "Slide_Rails",
+          "score": 0.2987
+        },
+        {
+          "id": "69a89aae",
+          "cat": "Slide_Rails",
+          "score": 0.2982
+        },
+        {
+          "id": "0559ee8b",
+          "cat": "Slide_Rails",
+          "score": 0.2978
+        }
+      ]
+    },
+    {
+      "query": "슬라이드 레일 인출",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0326,
+      "top_results": [
+        {
+          "id": "968c320d",
+          "cat": "Slide_Rails",
+          "score": 0.3264
+        },
+        {
+          "id": "3c17ecec",
+          "cat": "Slide_Rails",
+          "score": 0.3193
+        },
+        {
+          "id": "292ee5e6",
+          "cat": "Slide_Rails",
+          "score": 0.3148
+        },
+        {
+          "id": "0b415685",
+          "cat": "Slide_Rails",
+          "score": 0.3117
+        },
+        {
+          "id": "b2864b88",
+          "cat": "Slide_Rails",
+          "score": 0.3117
+        }
+      ]
+    },
+    {
+      "query": "ball screw precision lead",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0317,
+      "top_results": [
+        {
+          "id": "c86e5af8",
+          "cat": "Ball_Screws",
+          "score": 0.278
+        },
+        {
+          "id": "e31009f3",
+          "cat": "Ball_Screws",
+          "score": 0.2726
+        },
+        {
+          "id": "1991ce80",
+          "cat": "Ball_Screws",
+          "score": 0.2681
+        },
+        {
+          "id": "6e20f91c",
+          "cat": "Ball_Screws",
+          "score": 0.2629
+        },
+        {
+          "id": "e399b40e",
+          "cat": "Ball_Screws",
+          "score": 0.2566
+        }
+      ]
+    },
+    {
+      "query": "볼 스크류 이송 나사",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0291,
+      "top_results": [
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4471
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4451
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4449
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4366
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4359
+        }
+      ]
+    },
+    {
+      "query": "slide screw feed mechanism",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.2,
+        "10": 0.2
+      },
+      "reciprocal_rank": 0.25,
+      "latency": 0.0632,
+      "top_results": [
+        {
+          "id": "db016e96",
+          "cat": "Screws",
+          "score": 0.3044
+        },
+        {
+          "id": "2a1a532c",
+          "cat": "Screws",
+          "score": 0.2866
+        },
+        {
+          "id": "36beed4e",
+          "cat": "Screws",
+          "score": 0.2864
+        },
+        {
+          "id": "587b7bfb",
+          "cat": "Slide_Screws",
+          "score": 0.2822
+        },
+        {
+          "id": "ee2f75df",
+          "cat": "Screws",
+          "score": 0.282
+        }
+      ]
+    },
+    {
+      "query": "슬라이드 스크류 피드",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0349,
+      "top_results": [
+        {
+          "id": "968c320d",
+          "cat": "Slide_Rails",
+          "score": 0.3356
+        },
+        {
+          "id": "3c17ecec",
+          "cat": "Slide_Rails",
+          "score": 0.3225
+        },
+        {
+          "id": "0b415685",
+          "cat": "Slide_Rails",
+          "score": 0.3194
+        },
+        {
+          "id": "b2864b88",
+          "cat": "Slide_Rails",
+          "score": 0.3064
+        },
+        {
+          "id": "6351a993",
+          "cat": "Slide_Rails",
+          "score": 0.3059
+        }
+      ]
+    },
+    {
+      "query": "rotary shaft motor coupling",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0337,
+      "top_results": [
+        {
+          "id": "b61280a5",
+          "cat": "Rotary_Shafts",
+          "score": 0.3324
+        },
+        {
+          "id": "bdf0921b",
+          "cat": "Rotary_Shafts",
+          "score": 0.3319
+        },
+        {
+          "id": "6c77b211",
+          "cat": "Rotary_Shafts",
+          "score": 0.3313
+        },
+        {
+          "id": "83ffa595",
+          "cat": "Rotary_Shafts",
+          "score": 0.3307
+        },
+        {
+          "id": "0804e625",
+          "cat": "Rotary_Shafts",
+          "score": 0.3302
+        }
+      ]
+    },
+    {
+      "query": "회전축 모터 연결",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0309,
+      "top_results": [
+        {
+          "id": "c8faa0f9",
+          "cat": "Rotary_Shafts",
+          "score": 0.2905
+        },
+        {
+          "id": "c0682c20",
+          "cat": "Rotary_Shafts",
+          "score": 0.2865
+        },
+        {
+          "id": "6c77b211",
+          "cat": "Rotary_Shafts",
+          "score": 0.2829
+        },
+        {
+          "id": "a123e0d1",
+          "cat": "Rotary_Shafts",
+          "score": 0.2824
+        },
+        {
+          "id": "6f8942ee",
+          "cat": "Rotary_Shafts",
+          "score": 0.2824
+        }
+      ]
+    },
+    {
+      "query": "hinge pin door pivot",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0307,
+      "top_results": [
+        {
+          "id": "386b45d2",
+          "cat": "Levers",
+          "score": 0.3444
+        },
+        {
+          "id": "6b3c8e53",
+          "cat": "Levers",
+          "score": 0.3395
+        },
+        {
+          "id": "4dd2e1b1",
+          "cat": "Levers",
+          "score": 0.339
+        },
+        {
+          "id": "dcc6d280",
+          "cat": "Levers",
+          "score": 0.3206
+        },
+        {
+          "id": "9e4df2ef",
+          "cat": "Levers",
+          "score": 0.3199
+        }
+      ]
+    },
+    {
+      "query": "힌지 핀 도어 피봇",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0273,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4477
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4476
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4443
+        },
+        {
+          "id": "04f4f9e7",
+          "cat": "Actuator",
+          "score": 0.4358
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.4339
+        }
+      ]
+    },
+    {
+      "query": "bearing with holder pillow block",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0313,
+      "top_results": [
+        {
+          "id": "c5f9bc29",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2996
+        },
+        {
+          "id": "e6775087",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2996
+        },
+        {
+          "id": "08c6f4b8",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2996
+        },
+        {
+          "id": "e9e31a7f",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2996
+        },
+        {
+          "id": "c9e74ccd",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2996
+        }
+      ]
+    },
+    {
+      "query": "베어링 유닛 홀더 필로우 블록",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.055,
+      "top_results": [
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4378
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4314
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4269
+        },
+        {
+          "id": "c71dff58",
+          "cat": "Actuator",
+          "score": 0.4222
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4213
+        }
+      ]
+    },
+    {
+      "query": "coupling flexible rigid jaw",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0317,
+      "top_results": [
+        {
+          "id": "9a977bed",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2599
+        },
+        {
+          "id": "c5f9bc29",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2507
+        },
+        {
+          "id": "e6775087",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2507
+        },
+        {
+          "id": "08c6f4b8",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2507
+        },
+        {
+          "id": "e9e31a7f",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2507
+        }
+      ]
+    },
+    {
+      "query": "커플링 플렉시블 조 타입",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0533,
+      "top_results": [
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4392
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4308
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4267
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4202
+        },
+        {
+          "id": "c71dff58",
+          "cat": "Actuator",
+          "score": 0.4187
+        }
+      ]
+    },
+    {
+      "query": "roller conveyor guide",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0298,
+      "top_results": [
+        {
+          "id": "1ccf4496",
+          "cat": "Slide_Rails",
+          "score": 0.2782
+        },
+        {
+          "id": "a089b345",
+          "cat": "Slide_Rails",
+          "score": 0.2742
+        },
+        {
+          "id": "1fdcac0b",
+          "cat": "Slide_Rails",
+          "score": 0.2734
+        },
+        {
+          "id": "0559ee8b",
+          "cat": "Slide_Rails",
+          "score": 0.2685
+        },
+        {
+          "id": "f8dbe1a4",
+          "cat": "Slide_Rails",
+          "score": 0.2625
+        }
+      ]
+    },
+    {
+      "query": "롤러 가이드 컨베이어",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0304,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4031
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3951
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3893
+        },
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3836
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.381
+        }
+      ]
+    },
+    {
+      "query": "conveyor belt gravity roller",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0299,
+      "top_results": [
+        {
+          "id": "d761bbc9",
+          "cat": "Rollers",
+          "score": 0.289
+        },
+        {
+          "id": "2b20aede",
+          "cat": "Rollers",
+          "score": 0.289
+        },
+        {
+          "id": "846a64bb",
+          "cat": "Rollers",
+          "score": 0.289
+        },
+        {
+          "id": "aece08fc",
+          "cat": "Rollers",
+          "score": 0.289
+        },
+        {
+          "id": "77726028",
+          "cat": "Rollers",
+          "score": 0.289
+        }
+      ]
+    },
+    {
+      "query": "컨베이어 벨트 이송",
+      "type": "text",
+      "recall_at": {
+        "1": 0.5,
+        "3": 0.5,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 0.3333,
+        "5": 0.4,
+        "10": 0.2
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.028,
+      "top_results": [
+        {
+          "id": "66b1c883",
+          "cat": "Conveyors",
+          "score": 0.3901
+        },
+        {
+          "id": "86ec3b0b",
+          "cat": "Levers",
+          "score": 0.3587
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3504
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3502
+        },
+        {
+          "id": "cbff9d0c",
+          "cat": "Conveyors",
+          "score": 0.3478
+        }
+      ]
+    },
+    {
+      "query": "flat belt round belt drive",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0307,
+      "top_results": [
+        {
+          "id": "b7b68351",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.3467
+        },
+        {
+          "id": "37fd99be",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.3255
+        },
+        {
+          "id": "478923b2",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.3245
+        },
+        {
+          "id": "84785b5e",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.3243
+        },
+        {
+          "id": "f4b86d62",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.3241
+        }
+      ]
+    },
+    {
+      "query": "평벨트 환벨트 구동",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0331,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4201
+        },
+        {
+          "id": "e4b4c285",
+          "cat": "Couplings",
+          "score": 0.4182
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4091
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4002
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.3986
+        }
+      ]
+    },
+    {
+      "query": "timing pulley synchronous belt",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0392,
+      "top_results": [
+        {
+          "id": "67ba3658",
+          "cat": "Timing_Pulleys",
+          "score": 0.2855
+        },
+        {
+          "id": "efd2f13f",
+          "cat": "Timing_Pulleys",
+          "score": 0.2843
+        },
+        {
+          "id": "2da92d68",
+          "cat": "Timing_Pulleys",
+          "score": 0.284
+        },
+        {
+          "id": "ebd2d795",
+          "cat": "Timing_Pulleys",
+          "score": 0.2837
+        },
+        {
+          "id": "4969374c",
+          "cat": "Timing_Pulleys",
+          "score": 0.2837
+        }
+      ]
+    },
+    {
+      "query": "타이밍 풀리 동기 벨트",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0312,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3921
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3821
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.382
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.3726
+        },
+        {
+          "id": "0f4a1c9f",
+          "cat": "Stages",
+          "score": 0.3723
+        }
+      ]
+    },
+    {
+      "query": "gear spur helical bevel",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0305,
+      "top_results": [
+        {
+          "id": "7dd0d357",
+          "cat": "Gears",
+          "score": 0.4066
+        },
+        {
+          "id": "3ef87ca9",
+          "cat": "Gears",
+          "score": 0.3974
+        },
+        {
+          "id": "6a880833",
+          "cat": "Gears",
+          "score": 0.3968
+        },
+        {
+          "id": "725e570a",
+          "cat": "Gears",
+          "score": 0.3788
+        },
+        {
+          "id": "e6225a60",
+          "cat": "Gears",
+          "score": 0.3741
+        }
+      ]
+    },
+    {
+      "query": "기어 스퍼 헬리컬 베벨",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0271,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4442
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4428
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4388
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4374
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4289
+        }
+      ]
+    },
+    {
+      "query": "sprocket chain drive roller",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0294,
+      "top_results": [
+        {
+          "id": "6d1e2aa1",
+          "cat": "Slide_Rails",
+          "score": 0.3076
+        },
+        {
+          "id": "a089b345",
+          "cat": "Slide_Rails",
+          "score": 0.2801
+        },
+        {
+          "id": "bc13c97c",
+          "cat": "Slide_Rails",
+          "score": 0.2779
+        },
+        {
+          "id": "f6fe84a2",
+          "cat": "Slide_Rails",
+          "score": 0.2773
+        },
+        {
+          "id": "ce0ca5b5",
+          "cat": "Slide_Rails",
+          "score": 0.2759
+        }
+      ]
+    },
+    {
+      "query": "스프로킷 체인 구동",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0303,
+      "top_results": [
+        {
+          "id": "0ae9c1ad",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.2915
+        },
+        {
+          "id": "30a176ea",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.2808
+        },
+        {
+          "id": "79de54c4",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.2738
+        },
+        {
+          "id": "5b31fc7d",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.2733
+        },
+        {
+          "id": "979f28d3",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.2725
+        }
+      ]
+    },
+    {
+      "query": "locating pin dowel taper",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0325,
+      "top_results": [
+        {
+          "id": "b5b19111",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.2424
+        },
+        {
+          "id": "7a2c1685",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.2421
+        },
+        {
+          "id": "a0f75d73",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.242
+        },
+        {
+          "id": "a5c40291",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.2414
+        },
+        {
+          "id": "2c68e48f",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.2401
+        }
+      ]
+    },
+    {
+      "query": "위치결정 핀 다웰 테이퍼",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0273,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4495
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4394
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4374
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4364
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4302
+        }
+      ]
+    },
+    {
+      "query": "locating guide component positioning",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.034,
+      "top_results": [
+        {
+          "id": "f153c2f2",
+          "cat": "Bearings_with_Holder",
+          "score": 0.1832
+        },
+        {
+          "id": "7736b007",
+          "cat": "Bearings_with_Holder",
+          "score": 0.1832
+        },
+        {
+          "id": "f1db5d3a",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1827
+        },
+        {
+          "id": "0dcc593a",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1827
+        },
+        {
+          "id": "96887199",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1826
+        }
+      ]
+    },
+    {
+      "query": "위치결정 가이드 부품",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0282,
+      "top_results": [
+        {
+          "id": "32bbf4d2",
+          "cat": "Accessories",
+          "score": 0.3337
+        },
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3316
+        },
+        {
+          "id": "dc180802",
+          "cat": "Accessories",
+          "score": 0.324
+        },
+        {
+          "id": "73337771",
+          "cat": "Accessories",
+          "score": 0.3103
+        },
+        {
+          "id": "ef134f69",
+          "cat": "Accessories",
+          "score": 0.3103
+        }
+      ]
+    },
+    {
+      "query": "plunger spring ball indexing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0313,
+      "top_results": [
+        {
+          "id": "5f85235f",
+          "cat": "Ball_Splines",
+          "score": 0.3694
+        },
+        {
+          "id": "4242d225",
+          "cat": "Ball_Splines",
+          "score": 0.3624
+        },
+        {
+          "id": "f783514b",
+          "cat": "Ball_Splines",
+          "score": 0.3603
+        },
+        {
+          "id": "875b4aa6",
+          "cat": "Ball_Splines",
+          "score": 0.3571
+        },
+        {
+          "id": "9a2113b8",
+          "cat": "Ball_Splines",
+          "score": 0.3529
+        }
+      ]
+    },
+    {
+      "query": "플런저 스프링 볼 인덱싱",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0305,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4214
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4144
+        },
+        {
+          "id": "0e36a517",
+          "cat": "Couplings",
+          "score": 0.414
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4025
+        },
+        {
+          "id": "0c2dba79",
+          "cat": "Actuator",
+          "score": 0.4013
+        }
+      ]
+    },
+    {
+      "query": "clamp toggle hold down",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0298,
+      "top_results": [
+        {
+          "id": "1ae193ba",
+          "cat": "Levers",
+          "score": 0.314
+        },
+        {
+          "id": "0b775831",
+          "cat": "Levers",
+          "score": 0.3058
+        },
+        {
+          "id": "ffc1795d",
+          "cat": "Levers",
+          "score": 0.3025
+        },
+        {
+          "id": "863fd421",
+          "cat": "Levers",
+          "score": 0.3018
+        },
+        {
+          "id": "dc64c90e",
+          "cat": "Levers",
+          "score": 0.3013
+        }
+      ]
+    },
+    {
+      "query": "클램프 토글 고정",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0269,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4393
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4363
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4282
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4264
+        },
+        {
+          "id": "e4b4c285",
+          "cat": "Couplings",
+          "score": 0.4243
+        }
+      ]
+    },
+    {
+      "query": "inspection gauge measurement jig",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1429,
+        "3": 0.4286,
+        "5": 0.7143,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 0.7
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0352,
+      "top_results": [
+        {
+          "id": "24184c24",
+          "cat": "Inspections",
+          "score": 0.4236
+        },
+        {
+          "id": "3730814b",
+          "cat": "Inspections",
+          "score": 0.417
+        },
+        {
+          "id": "6bab6fab",
+          "cat": "Inspections",
+          "score": 0.315
+        },
+        {
+          "id": "1661ee83",
+          "cat": "Inspections",
+          "score": 0.3072
+        },
+        {
+          "id": "68f48b3d",
+          "cat": "Inspections",
+          "score": 0.2986
+        }
+      ]
+    },
+    {
+      "query": "검사 게이지 측정 지그",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0318,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4495
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4444
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4395
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4376
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4367
+        }
+      ]
+    },
+    {
+      "query": "contact probe test pin spring",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0368,
+      "top_results": [
+        {
+          "id": "fa69759d",
+          "cat": "Springs",
+          "score": 0.2204
+        },
+        {
+          "id": "2de2083c",
+          "cat": "Springs",
+          "score": 0.2104
+        },
+        {
+          "id": "9b544ea2",
+          "cat": "Springs",
+          "score": 0.2083
+        },
+        {
+          "id": "a98e2778",
+          "cat": "Springs",
+          "score": 0.2065
+        },
+        {
+          "id": "bd595068",
+          "cat": "Springs",
+          "score": 0.2057
+        }
+      ]
+    },
+    {
+      "query": "컨택트 프로브 테스트 핀",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0345,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3793
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3614
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.3611
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3604
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.3578
+        }
+      ]
+    },
+    {
+      "query": "simplified adjustment unit fine",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0399,
+      "top_results": [
+        {
+          "id": "4830f8cd",
+          "cat": "Simplified_Adjustment_Units",
+          "score": 0.3828
+        },
+        {
+          "id": "1c4b6ed3",
+          "cat": "Simplified_Adjustment_Units",
+          "score": 0.3795
+        },
+        {
+          "id": "90c6a0e9",
+          "cat": "Simplified_Adjustment_Units",
+          "score": 0.3758
+        },
+        {
+          "id": "c3df5686",
+          "cat": "Simplified_Adjustment_Units",
+          "score": 0.3736
+        },
+        {
+          "id": "0dde9197",
+          "cat": "Simplified_Adjustment_Units",
+          "score": 0.3731
+        }
+      ]
+    },
+    {
+      "query": "간이 조정 유닛",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.028,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4506
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4488
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4416
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4401
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.4357
+        }
+      ]
+    },
+    {
+      "query": "stage xy precision positioning",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0347,
+      "top_results": [
+        {
+          "id": "5fb83be7",
+          "cat": "Stages",
+          "score": 0.3033
+        },
+        {
+          "id": "622b8ca6",
+          "cat": "Stages",
+          "score": 0.2886
+        },
+        {
+          "id": "90cf26ea",
+          "cat": "Stages",
+          "score": 0.2814
+        },
+        {
+          "id": "b6d43aac",
+          "cat": "Stages",
+          "score": 0.2796
+        },
+        {
+          "id": "234269f3",
+          "cat": "Stages",
+          "score": 0.2785
+        }
+      ]
+    },
+    {
+      "query": "스테이지 XY 정밀 위치결정",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0343,
+      "top_results": [
+        {
+          "id": "c6d38bea",
+          "cat": "Stages",
+          "score": 0.3037
+        },
+        {
+          "id": "d995c8dd",
+          "cat": "Stages",
+          "score": 0.3036
+        },
+        {
+          "id": "dd736e8a",
+          "cat": "Stages",
+          "score": 0.2999
+        },
+        {
+          "id": "06f743d2",
+          "cat": "Stages",
+          "score": 0.296
+        },
+        {
+          "id": "4b1831b2",
+          "cat": "Stages",
+          "score": 0.2959
+        }
+      ]
+    },
+    {
+      "query": "image processing camera lens mount",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0377,
+      "top_results": [
+        {
+          "id": "87cd48f5",
+          "cat": "Sensors",
+          "score": 0.2239
+        },
+        {
+          "id": "ba2f8e13",
+          "cat": "Sensors",
+          "score": 0.2132
+        },
+        {
+          "id": "596b0ff2",
+          "cat": "Sensors",
+          "score": 0.2122
+        },
+        {
+          "id": "395cc642",
+          "cat": "Sensors",
+          "score": 0.2117
+        },
+        {
+          "id": "f681b917",
+          "cat": "Sensors",
+          "score": 0.2095
+        }
+      ]
+    },
+    {
+      "query": "화상처리 카메라 렌즈 마운트",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0314,
+      "top_results": [
+        {
+          "id": "7517eb61",
+          "cat": "Led_Lighting",
+          "score": 0.3129
+        },
+        {
+          "id": "c6751cd1",
+          "cat": "Led_Lighting",
+          "score": 0.3082
+        },
+        {
+          "id": "ab3a485a",
+          "cat": "Led_Lighting",
+          "score": 0.3047
+        },
+        {
+          "id": "0e6bbafd",
+          "cat": "Led_Lighting",
+          "score": 0.3002
+        },
+        {
+          "id": "23a6ef43",
+          "cat": "Led_Lighting",
+          "score": 0.2991
+        }
+      ]
+    },
+    {
+      "query": "sensor proximity photoelectric optical",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0349,
+      "top_results": [
+        {
+          "id": "ba2f8e13",
+          "cat": "Sensors",
+          "score": 0.2737
+        },
+        {
+          "id": "75486dda",
+          "cat": "Sensors",
+          "score": 0.2731
+        },
+        {
+          "id": "395cc642",
+          "cat": "Sensors",
+          "score": 0.2636
+        },
+        {
+          "id": "ded5a085",
+          "cat": "Sensors",
+          "score": 0.261
+        },
+        {
+          "id": "b2c170eb",
+          "cat": "Sensors",
+          "score": 0.2589
+        }
+      ]
+    },
+    {
+      "query": "센서 근접 광전 광학",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0319,
+      "top_results": [
+        {
+          "id": "eb692707",
+          "cat": "Cylinders",
+          "score": 0.2287
+        },
+        {
+          "id": "7601a986",
+          "cat": "Cylinders",
+          "score": 0.2177
+        },
+        {
+          "id": "0ac2d4b7",
+          "cat": "Cylinders",
+          "score": 0.217
+        },
+        {
+          "id": "3da30f40",
+          "cat": "Cylinders",
+          "score": 0.2077
+        },
+        {
+          "id": "606249f9",
+          "cat": "Cylinders",
+          "score": 0.202
+        }
+      ]
+    },
+    {
+      "query": "post support pillar column",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0336,
+      "top_results": [
+        {
+          "id": "78be9489",
+          "cat": "Posts",
+          "score": 0.2251
+        },
+        {
+          "id": "a5d3fa80",
+          "cat": "Posts",
+          "score": 0.2235
+        },
+        {
+          "id": "03496d46",
+          "cat": "Posts",
+          "score": 0.2234
+        },
+        {
+          "id": "29714237",
+          "cat": "Posts",
+          "score": 0.2212
+        },
+        {
+          "id": "2921d197",
+          "cat": "Posts",
+          "score": 0.2157
+        }
+      ]
+    },
+    {
+      "query": "포스트 지주 기둥 컬럼",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.1
+      },
+      "reciprocal_rank": 0.125,
+      "latency": 0.031,
+      "top_results": [
+        {
+          "id": "e4b4c285",
+          "cat": "Couplings",
+          "score": 0.2997
+        },
+        {
+          "id": "ee2b69a6",
+          "cat": "Springs",
+          "score": 0.2982
+        },
+        {
+          "id": "29d786ec",
+          "cat": "Rollers",
+          "score": 0.2958
+        },
+        {
+          "id": "6520a8d5",
+          "cat": "Couplings",
+          "score": 0.286
+        },
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.286
+        }
+      ]
+    },
+    {
+      "query": "rib angle plate stiffener",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0322,
+      "top_results": [
+        {
+          "id": "60c561f3",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.3856
+        },
+        {
+          "id": "b47e5615",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.3854
+        },
+        {
+          "id": "cc7f155c",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.384
+        },
+        {
+          "id": "b8a999b5",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.3748
+        },
+        {
+          "id": "28688e78",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.3725
+        }
+      ]
+    },
+    {
+      "query": "리브 앵글 플레이트 보강재",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0291,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4504
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.442
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4381
+        },
+        {
+          "id": "04f4f9e7",
+          "cat": "Actuator",
+          "score": 0.4304
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.4295
+        }
+      ]
+    },
+    {
+      "query": "washer flat spring lock",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0308,
+      "top_results": [
+        {
+          "id": "1ae193ba",
+          "cat": "Levers",
+          "score": 0.2131
+        },
+        {
+          "id": "86ec3b0b",
+          "cat": "Levers",
+          "score": 0.2107
+        },
+        {
+          "id": "1cd3c345",
+          "cat": "Levers",
+          "score": 0.2089
+        },
+        {
+          "id": "ffc1795d",
+          "cat": "Levers",
+          "score": 0.2017
+        },
+        {
+          "id": "0e47d40d",
+          "cat": "Levers",
+          "score": 0.2015
+        }
+      ]
+    },
+    {
+      "query": "와셔 평 스프링 잠금",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0295,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4477
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4466
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4439
+        },
+        {
+          "id": "04f4f9e7",
+          "cat": "Actuator",
+          "score": 0.4386
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4342
+        }
+      ]
+    },
+    {
+      "query": "screw hex socket cap bolt",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0356,
+      "top_results": [
+        {
+          "id": "c73c5013",
+          "cat": "Levers",
+          "score": 0.3185
+        },
+        {
+          "id": "386b45d2",
+          "cat": "Levers",
+          "score": 0.2894
+        },
+        {
+          "id": "6b3c8e53",
+          "cat": "Levers",
+          "score": 0.2859
+        },
+        {
+          "id": "ffc1795d",
+          "cat": "Levers",
+          "score": 0.2846
+        },
+        {
+          "id": "4dd2e1b1",
+          "cat": "Levers",
+          "score": 0.2795
+        }
+      ]
+    },
+    {
+      "query": "나사 육각 볼트 캡",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0304,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4378
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4353
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4302
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.43
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4282
+        }
+      ]
+    },
+    {
+      "query": "miscellaneous hardware parts",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.031,
+      "top_results": [
+        {
+          "id": "4e19e8a2",
+          "cat": "Gears",
+          "score": 0.3054
+        },
+        {
+          "id": "b1e37c32",
+          "cat": "Rollers",
+          "score": 0.3026
+        },
+        {
+          "id": "9f217e8b",
+          "cat": "Rollers",
+          "score": 0.2993
+        },
+        {
+          "id": "1fe7dc6c",
+          "cat": "Gears",
+          "score": 0.2985
+        },
+        {
+          "id": "98626811",
+          "cat": "Rollers",
+          "score": 0.297
+        }
+      ]
+    },
+    {
+      "query": "기타 하드웨어 부품",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0275,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3787
+        },
+        {
+          "id": "b29d711e",
+          "cat": "Actuator",
+          "score": 0.3772
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3741
+        },
+        {
+          "id": "e237b57e",
+          "cat": "Actuator",
+          "score": 0.3677
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.366
+        }
+      ]
+    },
+    {
+      "query": "rod threaded connecting link",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0336,
+      "top_results": [
+        {
+          "id": "9a80b8ad",
+          "cat": "Holders_for_Shaft",
+          "score": 0.2054
+        },
+        {
+          "id": "4019362f",
+          "cat": "Holders_for_Shaft",
+          "score": 0.2054
+        },
+        {
+          "id": "16f9732d",
+          "cat": "Holders_for_Shaft",
+          "score": 0.202
+        },
+        {
+          "id": "db686267",
+          "cat": "Holders_for_Shaft",
+          "score": 0.202
+        },
+        {
+          "id": "cf4c82f3",
+          "cat": "Holders_for_Shaft",
+          "score": 0.2009
+        }
+      ]
+    },
+    {
+      "query": "로드 연결봉 나사",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0318,
+      "top_results": [
+        {
+          "id": "66b1c883",
+          "cat": "Conveyors",
+          "score": 0.3165
+        },
+        {
+          "id": "29d786ec",
+          "cat": "Rollers",
+          "score": 0.3023
+        },
+        {
+          "id": "246eb1d7",
+          "cat": "Rollers",
+          "score": 0.3009
+        },
+        {
+          "id": "045ae2e2",
+          "cat": "Slide_Rails",
+          "score": 0.2989
+        },
+        {
+          "id": "112355f2",
+          "cat": "Actuator",
+          "score": 0.2955
+        }
+      ]
+    },
+    {
+      "query": "spring compression extension torsion",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0335,
+      "top_results": [
+        {
+          "id": "3854da19",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2033
+        },
+        {
+          "id": "39fdd4cf",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2015
+        },
+        {
+          "id": "2d942af8",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2008
+        },
+        {
+          "id": "0abe9b35",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2007
+        },
+        {
+          "id": "9e73c9b2",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2006
+        }
+      ]
+    },
+    {
+      "query": "스프링 압축 인장 토션",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0296,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.437
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4282
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4275
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4237
+        },
+        {
+          "id": "0e36a517",
+          "cat": "Couplings",
+          "score": 0.4169
+        }
+      ]
+    },
+    {
+      "query": "urethane rubber pad cushion",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0322,
+      "top_results": [
+        {
+          "id": "99575883",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2036
+        },
+        {
+          "id": "85a80ab7",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2036
+        },
+        {
+          "id": "9a977bed",
+          "cat": "Bearings_with_Holder",
+          "score": 0.1991
+        },
+        {
+          "id": "596b712b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.1977
+        },
+        {
+          "id": "3c24a1b4",
+          "cat": "Bearings_with_Holder",
+          "score": 0.1977
+        }
+      ]
+    },
+    {
+      "query": "우레탄 러버 패드 쿠션",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0271,
+      "top_results": [
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3722
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3718
+        },
+        {
+          "id": "32bbf4d2",
+          "cat": "Accessories",
+          "score": 0.3645
+        },
+        {
+          "id": "dc180802",
+          "cat": "Accessories",
+          "score": 0.3643
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3642
+        }
+      ]
+    },
+    {
+      "query": "antivibration mount damper isolator",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0309,
+      "top_results": [
+        {
+          "id": "62a71d36",
+          "cat": "Levers",
+          "score": 0.2371
+        },
+        {
+          "id": "fd44b3d8",
+          "cat": "Levers",
+          "score": 0.2269
+        },
+        {
+          "id": "b5d5e958",
+          "cat": "Levers",
+          "score": 0.2261
+        },
+        {
+          "id": "1a9d3273",
+          "cat": "Levers",
+          "score": 0.2261
+        },
+        {
+          "id": "4b382b43",
+          "cat": "Levers",
+          "score": 0.2258
+        }
+      ]
+    },
+    {
+      "query": "방진 마운트 댐퍼 방진고무",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.3365,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4263
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4231
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4223
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4217
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4185
+        }
+      ]
+    },
+    {
+      "query": "aluminum frame extrusion profile",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.036,
+      "top_results": [
+        {
+          "id": "3489e734",
+          "cat": "Aluminum_Frames",
+          "score": 0.3728
+        },
+        {
+          "id": "753f02d0",
+          "cat": "Aluminum_Frames",
+          "score": 0.3668
+        },
+        {
+          "id": "0a4bd4e3",
+          "cat": "Aluminum_Frames",
+          "score": 0.3668
+        },
+        {
+          "id": "f908fd5b",
+          "cat": "Aluminum_Frames",
+          "score": 0.361
+        },
+        {
+          "id": "7d2f00ad",
+          "cat": "Aluminum_Frames",
+          "score": 0.3597
+        }
+      ]
+    },
+    {
+      "query": "알루미늄 프레임 압출 프로파일",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0284,
+      "top_results": [
+        {
+          "id": "3489e734",
+          "cat": "Aluminum_Frames",
+          "score": 0.3977
+        },
+        {
+          "id": "7d2f00ad",
+          "cat": "Aluminum_Frames",
+          "score": 0.384
+        },
+        {
+          "id": "a6d35954",
+          "cat": "Aluminum_Frames",
+          "score": 0.3824
+        },
+        {
+          "id": "e1173ca9",
+          "cat": "Aluminum_Frames",
+          "score": 0.3815
+        },
+        {
+          "id": "5be19675",
+          "cat": "Aluminum_Frames",
+          "score": 0.3785
+        }
+      ]
+    },
+    {
+      "query": "accessories hardware knob handle",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0295,
+      "top_results": [
+        {
+          "id": "0753b596",
+          "cat": "Gears",
+          "score": 0.3242
+        },
+        {
+          "id": "62a71d36",
+          "cat": "Levers",
+          "score": 0.3213
+        },
+        {
+          "id": "1a9d3273",
+          "cat": "Levers",
+          "score": 0.3147
+        },
+        {
+          "id": "3de57d9d",
+          "cat": "Levers",
+          "score": 0.3128
+        },
+        {
+          "id": "40337931",
+          "cat": "Levers",
+          "score": 0.3066
+        }
+      ]
+    },
+    {
+      "query": "액세서리 하드웨어 노브 핸들",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0295,
+      "top_results": [
+        {
+          "id": "b29d711e",
+          "cat": "Actuator",
+          "score": 0.3793
+        },
+        {
+          "id": "40fa8952",
+          "cat": "Actuator",
+          "score": 0.3662
+        },
+        {
+          "id": "8fd2d96f",
+          "cat": "Actuator",
+          "score": 0.3471
+        },
+        {
+          "id": "2d57c9cb",
+          "cat": "Actuator",
+          "score": 0.347
+        },
+        {
+          "id": "a188f614",
+          "cat": "Actuator",
+          "score": 0.3442
+        }
+      ]
+    },
+    {
+      "query": "pipe frame tube structural",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.6667,
+        "5": 0.4,
+        "10": 0.2
+      },
+      "reciprocal_rank": 0.5,
+      "latency": 0.0328,
+      "top_results": [
+        {
+          "id": "f92d49b4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3487
+        },
+        {
+          "id": "93c7c64e",
+          "cat": "Pipe_Frames",
+          "score": 0.3414
+        },
+        {
+          "id": "4e04716f",
+          "cat": "Pipe_Frames",
+          "score": 0.3398
+        },
+        {
+          "id": "105cdf76",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3381
+        },
+        {
+          "id": "ad316444",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3323
+        }
+      ]
+    },
+    {
+      "query": "파이프 프레임 튜브 구조",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.2
+      },
+      "reciprocal_rank": 0.1111,
+      "latency": 0.0351,
+      "top_results": [
+        {
+          "id": "f92d49b4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3842
+        },
+        {
+          "id": "0647b4c4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3624
+        },
+        {
+          "id": "2c68e48f",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3606
+        },
+        {
+          "id": "3d10aaa4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.358
+        },
+        {
+          "id": "105cdf76",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.357
+        }
+      ]
+    },
+    {
+      "query": "cover panel enclosure shield",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0337,
+      "top_results": [
+        {
+          "id": "1b14e7f0",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2012
+        },
+        {
+          "id": "e945182b",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2003
+        },
+        {
+          "id": "604d89cb",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.1999
+        },
+        {
+          "id": "2f2df1e9",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.1992
+        },
+        {
+          "id": "56dc67a8",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.1989
+        }
+      ]
+    },
+    {
+      "query": "커버 패널 인클로저 차폐",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.028,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4468
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4427
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4385
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4339
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4333
+        }
+      ]
+    },
+    {
+      "query": "resin plate acrylic polycarbonate",
+      "type": "text",
+      "recall_at": {
+        "1": 0.5,
+        "3": 0.5,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 0.3333,
+        "5": 0.2,
+        "10": 0.2
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0301,
+      "top_results": [
+        {
+          "id": "f8417094",
+          "cat": "Resin_Plates",
+          "score": 0.2319
+        },
+        {
+          "id": "bfbf26b3",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2229
+        },
+        {
+          "id": "0b7cad2b",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2212
+        },
+        {
+          "id": "7914112a",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2175
+        },
+        {
+          "id": "2861c0d1",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2166
+        }
+      ]
+    },
+    {
+      "query": "수지 플레이트 아크릴 폴리카보네이트",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.1269,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4453
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.434
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.431
+        },
+        {
+          "id": "0e36a517",
+          "cat": "Couplings",
+          "score": 0.4232
+        },
+        {
+          "id": "0c2dba79",
+          "cat": "Actuator",
+          "score": 0.422
+        }
+      ]
+    },
+    {
+      "query": "led lighting illumination strip",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0332,
+      "top_results": [
+        {
+          "id": "9b0b7f2b",
+          "cat": "Angles",
+          "score": 0.1958
+        },
+        {
+          "id": "c12c1145",
+          "cat": "Angles",
+          "score": 0.1934
+        },
+        {
+          "id": "2f53bfd1",
+          "cat": "Angles",
+          "score": 0.1928
+        },
+        {
+          "id": "5caeedcd",
+          "cat": "Angles",
+          "score": 0.1926
+        },
+        {
+          "id": "6a8ca36d",
+          "cat": "Angles",
+          "score": 0.1914
+        }
+      ]
+    },
+    {
+      "query": "LED 조명 스트립 라이팅",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0247,
+      "top_results": [
+        {
+          "id": "3902cb4b",
+          "cat": "Led_Lighting",
+          "score": 0.4388
+        },
+        {
+          "id": "c7809c0c",
+          "cat": "Led_Lighting",
+          "score": 0.4388
+        },
+        {
+          "id": "7639dfd8",
+          "cat": "Led_Lighting",
+          "score": 0.4388
+        },
+        {
+          "id": "773d7578",
+          "cat": "Led_Lighting",
+          "score": 0.4388
+        },
+        {
+          "id": "4817b18d",
+          "cat": "Led_Lighting",
+          "score": 0.4378
+        }
+      ]
+    },
+    {
+      "query": "caster wheel swivel locking",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0253,
+      "top_results": [
+        {
+          "id": "86ec3b0b",
+          "cat": "Levers",
+          "score": 0.3198
+        },
+        {
+          "id": "6b3c8e53",
+          "cat": "Levers",
+          "score": 0.3161
+        },
+        {
+          "id": "386b45d2",
+          "cat": "Levers",
+          "score": 0.3159
+        },
+        {
+          "id": "14b3236d",
+          "cat": "Levers",
+          "score": 0.315
+        },
+        {
+          "id": "7e909cc3",
+          "cat": "Levers",
+          "score": 0.3125
+        }
+      ]
+    },
+    {
+      "query": "캐스터 바퀴 회전 잠금",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.1
+      },
+      "reciprocal_rank": 0.1429,
+      "latency": 0.0258,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.44
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4309
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4308
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4284
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.4235
+        }
+      ]
+    },
+    {
+      "query": "lever cam handle operating",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0265,
+      "top_results": [
+        {
+          "id": "043a88ac",
+          "cat": "Levers",
+          "score": 0.4184
+        },
+        {
+          "id": "62a71d36",
+          "cat": "Levers",
+          "score": 0.2973
+        },
+        {
+          "id": "2c857553",
+          "cat": "Levers",
+          "score": 0.2944
+        },
+        {
+          "id": "1a9d3273",
+          "cat": "Levers",
+          "score": 0.294
+        },
+        {
+          "id": "3de57d9d",
+          "cat": "Levers",
+          "score": 0.292
+        }
+      ]
+    },
+    {
+      "query": "레버 캠 핸들 조작",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0286,
+      "top_results": [
+        {
+          "id": "75486dda",
+          "cat": "Sensors",
+          "score": 0.3307
+        },
+        {
+          "id": "b6d7f5be",
+          "cat": "Sensors",
+          "score": 0.3169
+        },
+        {
+          "id": "395cc642",
+          "cat": "Sensors",
+          "score": 0.3147
+        },
+        {
+          "id": "ba2f8e13",
+          "cat": "Sensors",
+          "score": 0.312
+        },
+        {
+          "id": "c562f930",
+          "cat": "Sensors",
+          "score": 0.2933
+        }
+      ]
+    },
+    {
+      "query": "pull handle drawer cabinet",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0379,
+      "top_results": [
+        {
+          "id": "7b6486a7",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2113
+        },
+        {
+          "id": "c9c5a49a",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2091
+        },
+        {
+          "id": "bc91b686",
+          "cat": "Bearings_with_Holder",
+          "score": 0.209
+        },
+        {
+          "id": "93dbf612",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2083
+        },
+        {
+          "id": "5813dc01",
+          "cat": "Flat_Belts_and_Round_Belts",
+          "score": 0.2082
+        }
+      ]
+    },
+    {
+      "query": "풀 핸들 서랍 캐비닛",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0383,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4449
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4385
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4372
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4334
+        },
+        {
+          "id": "9a4dd1ab",
+          "cat": "Actuator",
+          "score": 0.4328
+        }
+      ]
+    },
+    {
+      "query": "manifold pneumatic air distribution",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0325,
+      "top_results": [
+        {
+          "id": "b784bb15",
+          "cat": "Cylinders",
+          "score": 0.2632
+        },
+        {
+          "id": "14ab29c7",
+          "cat": "Cylinders",
+          "score": 0.2503
+        },
+        {
+          "id": "5fe03b6a",
+          "cat": "Cylinders",
+          "score": 0.2447
+        },
+        {
+          "id": "06d84881",
+          "cat": "Cylinders",
+          "score": 0.2433
+        },
+        {
+          "id": "380a2256",
+          "cat": "Cylinders",
+          "score": 0.2393
+        }
+      ]
+    },
+    {
+      "query": "매니폴드 공압 공기 분배",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0279,
+      "top_results": [
+        {
+          "id": "112355f2",
+          "cat": "Actuator",
+          "score": 0.3411
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3329
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3293
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.324
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3216
+        }
+      ]
+    },
+    {
+      "query": "pipe fitting valve connector",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0294,
+      "top_results": [
+        {
+          "id": "0647b4c4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.408
+        },
+        {
+          "id": "ad316444",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4054
+        },
+        {
+          "id": "105cdf76",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4032
+        },
+        {
+          "id": "e5695572",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4027
+        },
+        {
+          "id": "08bf231f",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4018
+        }
+      ]
+    },
+    {
+      "query": "배관 피팅 밸브 커넥터",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0275,
+      "top_results": [
+        {
+          "id": "f92d49b4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4159
+        },
+        {
+          "id": "0647b4c4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.4012
+        },
+        {
+          "id": "105cdf76",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3912
+        },
+        {
+          "id": "08bf231f",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3897
+        },
+        {
+          "id": "d62f9d24",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3875
+        }
+      ]
+    },
+    {
+      "query": "sanitary tank vacuum vessel",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0298,
+      "top_results": [
+        {
+          "id": "aed310b1",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.397
+        },
+        {
+          "id": "d6b0f2cd",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3949
+        },
+        {
+          "id": "08592f89",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3949
+        },
+        {
+          "id": "0f45c200",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3949
+        },
+        {
+          "id": "b4dd3d24",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3949
+        }
+      ]
+    },
+    {
+      "query": "위생 탱크 진공 용기",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0269,
+      "top_results": [
+        {
+          "id": "e9b3bb24",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3541
+        },
+        {
+          "id": "a43fa283",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3502
+        },
+        {
+          "id": "9c514463",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3487
+        },
+        {
+          "id": "fff3b636",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3459
+        },
+        {
+          "id": "252c6f10",
+          "cat": "Sanitary_Vacuum_Tanks",
+          "score": 0.3446
+        }
+      ]
+    },
+    {
+      "query": "fitting nozzle tube adapter",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0313,
+      "top_results": [
+        {
+          "id": "712c88b1",
+          "cat": "Cylinders",
+          "score": 0.2473
+        },
+        {
+          "id": "5fe03b6a",
+          "cat": "Cylinders",
+          "score": 0.2439
+        },
+        {
+          "id": "50b00b81",
+          "cat": "Cylinders",
+          "score": 0.2437
+        },
+        {
+          "id": "91c01417",
+          "cat": "Cylinders",
+          "score": 0.2399
+        },
+        {
+          "id": "0db2f1a9",
+          "cat": "Cylinders",
+          "score": 0.2398
+        }
+      ]
+    },
+    {
+      "query": "피팅 노즐 튜브 어댑터",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0265,
+      "top_results": [
+        {
+          "id": "f92d49b4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.362
+        },
+        {
+          "id": "0647b4c4",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3407
+        },
+        {
+          "id": "d62f9d24",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3402
+        },
+        {
+          "id": "1c4bc03d",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3392
+        },
+        {
+          "id": "08bf231f",
+          "cat": "Pipes_Fitting_Valves",
+          "score": 0.3371
+        }
+      ]
+    },
+    {
+      "query": "cylinder pneumatic air piston",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0294,
+      "top_results": [
+        {
+          "id": "5fe03b6a",
+          "cat": "Cylinders",
+          "score": 0.3468
+        },
+        {
+          "id": "9b583a7d",
+          "cat": "Cylinders",
+          "score": 0.3276
+        },
+        {
+          "id": "b784bb15",
+          "cat": "Cylinders",
+          "score": 0.3164
+        },
+        {
+          "id": "7b7bffb3",
+          "cat": "Cylinders",
+          "score": 0.3139
+        },
+        {
+          "id": "ba3e303c",
+          "cat": "Cylinders",
+          "score": 0.3124
+        }
+      ]
+    },
+    {
+      "query": "실린더 공압 에어 피스톤",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0287,
+      "top_results": [
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4498
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4447
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4445
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4345
+        },
+        {
+          "id": "04f4f9e7",
+          "cat": "Actuator",
+          "score": 0.4315
+        }
+      ]
+    },
+    {
+      "query": "heater cartridge band heating",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0331,
+      "top_results": [
+        {
+          "id": "4a138bba",
+          "cat": "Heaters",
+          "score": 0.3544
+        },
+        {
+          "id": "408df88e",
+          "cat": "Heaters",
+          "score": 0.3518
+        },
+        {
+          "id": "cd8a10b5",
+          "cat": "Heaters",
+          "score": 0.3499
+        },
+        {
+          "id": "cafd2523",
+          "cat": "Heaters",
+          "score": 0.349
+        },
+        {
+          "id": "42b6ea59",
+          "cat": "Heaters",
+          "score": 0.3488
+        }
+      ]
+    },
+    {
+      "query": "히터 카트리지 밴드 가열",
+      "type": "text",
+      "recall_at": {
+        "1": 0.25,
+        "3": 0.5,
+        "5": 0.75,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 0.6667,
+        "5": 0.6,
+        "10": 0.4
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0316,
+      "top_results": [
+        {
+          "id": "9c739b7a",
+          "cat": "Heaters",
+          "score": 0.355
+        },
+        {
+          "id": "bc6fd1f7",
+          "cat": "Heaters",
+          "score": 0.3314
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3267
+        },
+        {
+          "id": "4135c0f5",
+          "cat": "Heaters",
+          "score": 0.3264
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.3238
+        }
+      ]
+    },
+    {
+      "query": "angle bracket L-shape steel",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0288,
+      "top_results": [
+        {
+          "id": "634ade85",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2646
+        },
+        {
+          "id": "da02a7a0",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2565
+        },
+        {
+          "id": "7d38a6ed",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2564
+        },
+        {
+          "id": "9904cf2f",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2564
+        },
+        {
+          "id": "85338ddb",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2564
+        }
+      ]
+    },
+    {
+      "query": "앵글 L자 브래킷 강재",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0291,
+      "top_results": [
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4499
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4466
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.446
+        },
+        {
+          "id": "7806b13f",
+          "cat": "Actuator",
+          "score": 0.4382
+        },
+        {
+          "id": "dbd5c9b8",
+          "cat": "Casters",
+          "score": 0.4372
+        }
+      ]
+    },
+    {
+      "query": "bracket mounting plate support",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0284,
+      "top_results": [
+        {
+          "id": "31d0a988",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2521
+        },
+        {
+          "id": "148fabca",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2446
+        },
+        {
+          "id": "f7dd3b8a",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2437
+        },
+        {
+          "id": "06e9aeff",
+          "cat": "Resin_Plates",
+          "score": 0.2434
+        },
+        {
+          "id": "258ea300",
+          "cat": "Ribs_and_Angle_Plates",
+          "score": 0.2431
+        }
+      ]
+    },
+    {
+      "query": "브래킷 마운팅 플레이트 지지",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0281,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4509
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.4447
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4375
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.4373
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4335
+        }
+      ]
+    },
+    {
+      "query": "UCP pillow block bearing unit",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0294,
+      "top_results": [
+        {
+          "id": "976378c7",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2681
+        },
+        {
+          "id": "37d4d893",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2661
+        },
+        {
+          "id": "d0ef95b9",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2637
+        },
+        {
+          "id": "969f3701",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2634
+        },
+        {
+          "id": "8f47df59",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2626
+        }
+      ]
+    },
+    {
+      "query": "UCP 필로우 블록 베어링 유닛",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.027,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.4143
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4056
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3968
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.3909
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3906
+        }
+      ]
+    },
+    {
+      "query": "UKP adapter sleeve pillow block",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0286,
+      "top_results": [
+        {
+          "id": "d5810d56",
+          "cat": "Rollers",
+          "score": 0.2273
+        },
+        {
+          "id": "86c974c5",
+          "cat": "Rollers",
+          "score": 0.2273
+        },
+        {
+          "id": "2892372f",
+          "cat": "Rollers",
+          "score": 0.225
+        },
+        {
+          "id": "58f5b290",
+          "cat": "Rollers",
+          "score": 0.2246
+        },
+        {
+          "id": "16625e0c",
+          "cat": "Rollers",
+          "score": 0.2217
+        }
+      ]
+    },
+    {
+      "query": "UKP 어댑터 슬리브 필로우 블록",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0278,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3465
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3413
+        },
+        {
+          "id": "2f94f66a",
+          "cat": "Actuator",
+          "score": 0.3305
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3288
+        },
+        {
+          "id": "0e36a517",
+          "cat": "Couplings",
+          "score": 0.3282
+        }
+      ]
+    },
+    {
+      "query": "UCF square flange bearing unit",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0314,
+      "top_results": [
+        {
+          "id": "e5fafa91",
+          "cat": "Cylinders",
+          "score": 0.3384
+        },
+        {
+          "id": "9933f0e2",
+          "cat": "Cylinders",
+          "score": 0.3376
+        },
+        {
+          "id": "454661f1",
+          "cat": "Cylinders",
+          "score": 0.3376
+        },
+        {
+          "id": "f23ed6e0",
+          "cat": "Cylinders",
+          "score": 0.3376
+        },
+        {
+          "id": "4ca51686",
+          "cat": "Cylinders",
+          "score": 0.3351
+        }
+      ]
+    },
+    {
+      "query": "UCF 사각 플랜지 베어링 유닛",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.3077,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3857
+        },
+        {
+          "id": "e237b57e",
+          "cat": "Actuator",
+          "score": 0.3822
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3782
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3655
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3629
+        }
+      ]
+    },
+    {
+      "query": "UCFL two bolt flange bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0373,
+      "top_results": [
+        {
+          "id": "f0964c1a",
+          "cat": "Rods",
+          "score": 0.2839
+        },
+        {
+          "id": "4a433c97",
+          "cat": "Rods",
+          "score": 0.2819
+        },
+        {
+          "id": "acede9f2",
+          "cat": "Rods",
+          "score": 0.2818
+        },
+        {
+          "id": "55b68f99",
+          "cat": "Rods",
+          "score": 0.2812
+        },
+        {
+          "id": "56184667",
+          "cat": "Rods",
+          "score": 0.2793
+        }
+      ]
+    },
+    {
+      "query": "UCFL 2볼트 플랜지 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0292,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3789
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3724
+        },
+        {
+          "id": "e237b57e",
+          "cat": "Actuator",
+          "score": 0.3668
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3655
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3614
+        }
+      ]
+    },
+    {
+      "query": "UKFL adapter sleeve flange bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.028,
+      "top_results": [
+        {
+          "id": "bfd8a9e2",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3282
+        },
+        {
+          "id": "23f82128",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3265
+        },
+        {
+          "id": "465e7a91",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3241
+        },
+        {
+          "id": "e085cc6b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3217
+        },
+        {
+          "id": "205960cd",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3209
+        }
+      ]
+    },
+    {
+      "query": "UKFL 어댑터 슬리브 플랜지 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.1204,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3852
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3715
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3694
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3691
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.3587
+        }
+      ]
+    },
+    {
+      "query": "UCFC round flange cartridge bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0333,
+      "top_results": [
+        {
+          "id": "465e7a91",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3363
+        },
+        {
+          "id": "205960cd",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3329
+        },
+        {
+          "id": "dd37c4c6",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3328
+        },
+        {
+          "id": "23f82128",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3319
+        },
+        {
+          "id": "e085cc6b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3312
+        }
+      ]
+    },
+    {
+      "query": "UCFC 원형 플랜지 카트리지 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0368,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3636
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3573
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.356
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.353
+        },
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3509
+        }
+      ]
+    },
+    {
+      "query": "UKFC adapter round cartridge bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0362,
+      "top_results": [
+        {
+          "id": "1ddac056",
+          "cat": "Bearings_with_Holder",
+          "score": 0.325
+        },
+        {
+          "id": "8bef5fd4",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3238
+        },
+        {
+          "id": "bacb94ce",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3226
+        },
+        {
+          "id": "044fcf77",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3217
+        },
+        {
+          "id": "395f917c",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3206
+        }
+      ]
+    },
+    {
+      "query": "UKFC 어댑터 원형 카트리지 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0304,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3735
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3589
+        },
+        {
+          "id": "2f94f66a",
+          "cat": "Actuator",
+          "score": 0.3486
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3486
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.3471
+        }
+      ]
+    },
+    {
+      "query": "UCFS adjustable flange bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0272,
+      "top_results": [
+        {
+          "id": "465e7a91",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3365
+        },
+        {
+          "id": "49e3c66e",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3352
+        },
+        {
+          "id": "0b2a204b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3333
+        },
+        {
+          "id": "bfd8a9e2",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3329
+        },
+        {
+          "id": "e085cc6b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3319
+        }
+      ]
+    },
+    {
+      "query": "UCFS 조정 플랜지 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0284,
+      "top_results": [
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3144
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3026
+        },
+        {
+          "id": "1b274f1f",
+          "cat": "Misc",
+          "score": 0.3002
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.2981
+        },
+        {
+          "id": "f812d19f",
+          "cat": "Actuator",
+          "score": 0.2957
+        }
+      ]
+    },
+    {
+      "query": "UKFS adapter adjustable flange",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0305,
+      "top_results": [
+        {
+          "id": "7b7b67bc",
+          "cat": "Levers",
+          "score": 0.2601
+        },
+        {
+          "id": "6d20b520",
+          "cat": "Levers",
+          "score": 0.2564
+        },
+        {
+          "id": "9f54f070",
+          "cat": "Levers",
+          "score": 0.2537
+        },
+        {
+          "id": "b6bc8796",
+          "cat": "Levers",
+          "score": 0.2515
+        },
+        {
+          "id": "4ccd4fd1",
+          "cat": "Levers",
+          "score": 0.2514
+        }
+      ]
+    },
+    {
+      "query": "UKFS 어댑터 조정 플랜지",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0279,
+      "top_results": [
+        {
+          "id": "c4ac9dbb",
+          "cat": "Accessories",
+          "score": 0.2965
+        },
+        {
+          "id": "c9bafd6f",
+          "cat": "Accessories",
+          "score": 0.2864
+        },
+        {
+          "id": "aafed0d1",
+          "cat": "Plungers",
+          "score": 0.2805
+        },
+        {
+          "id": "10b0c5c2",
+          "cat": "Plungers",
+          "score": 0.2777
+        },
+        {
+          "id": "ffb871e7",
+          "cat": "Casters",
+          "score": 0.277
+        }
+      ]
+    },
+    {
+      "query": "UCT take-up bearing unit tensioner",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0267,
+      "top_results": [
+        {
+          "id": "37d4d893",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2438
+        },
+        {
+          "id": "7771aabd",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2401
+        },
+        {
+          "id": "d16e5fa9",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2392
+        },
+        {
+          "id": "df947c3e",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2381
+        },
+        {
+          "id": "f26570f9",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2361
+        }
+      ]
+    },
+    {
+      "query": "UCT 테이크업 베어링 유닛 텐셔너",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0254,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.424
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4133
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.408
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.4074
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4069
+        }
+      ]
+    },
+    {
+      "query": "UKT adapter take-up bearing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0293,
+      "top_results": [
+        {
+          "id": "be020d80",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3193
+        },
+        {
+          "id": "896b3ed7",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3136
+        },
+        {
+          "id": "8a33949b",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3075
+        },
+        {
+          "id": "1aacbf7a",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3061
+        },
+        {
+          "id": "0e8dcf37",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3042
+        }
+      ]
+    },
+    {
+      "query": "UKT 어댑터 테이크업 베어링",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0297,
+      "top_results": [
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.3528
+        },
+        {
+          "id": "e237b57e",
+          "cat": "Actuator",
+          "score": 0.3477
+        },
+        {
+          "id": "b29d711e",
+          "cat": "Actuator",
+          "score": 0.3458
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3407
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.3394
+        }
+      ]
+    },
+    {
+      "query": "SN plummer block split housing",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0327,
+      "top_results": [
+        {
+          "id": "aac3fd27",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1898
+        },
+        {
+          "id": "c6352578",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1898
+        },
+        {
+          "id": "7c3dedd2",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1896
+        },
+        {
+          "id": "57c17bdb",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1896
+        },
+        {
+          "id": "141df6fd",
+          "cat": "Holders_for_Shaft",
+          "score": 0.1892
+        }
+      ]
+    },
+    {
+      "query": "SN 플러머 블록 분할 하우징",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.1
+      },
+      "reciprocal_rank": 0.125,
+      "latency": 0.0341,
+      "top_results": [
+        {
+          "id": "eb3461d1",
+          "cat": "Levers",
+          "score": 0.3362
+        },
+        {
+          "id": "dc948115",
+          "cat": "Actuator",
+          "score": 0.3265
+        },
+        {
+          "id": "fb4546bb",
+          "cat": "Couplings",
+          "score": 0.3155
+        },
+        {
+          "id": "d8889007",
+          "cat": "Plungers",
+          "score": 0.3113
+        },
+        {
+          "id": "80460976",
+          "cat": "Sprockets_and_Chains",
+          "score": 0.3109
+        }
+      ]
+    },
+    {
+      "query": "take-up frame bearing tensioning",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0317,
+      "top_results": [
+        {
+          "id": "c5f9bc29",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2411
+        },
+        {
+          "id": "e6775087",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2411
+        },
+        {
+          "id": "08c6f4b8",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2411
+        },
+        {
+          "id": "e9e31a7f",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2411
+        },
+        {
+          "id": "c9e74ccd",
+          "cat": "Bearings_with_Holder",
+          "score": 0.2411
+        }
+      ]
+    },
+    {
+      "query": "테이크업 프레임 베어링 장력 조정",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0317,
+      "top_results": [
+        {
+          "id": "e3ad29e7",
+          "cat": "Accessories",
+          "score": 0.3771
+        },
+        {
+          "id": "06e35ee1",
+          "cat": "Actuator",
+          "score": 0.3693
+        },
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.3656
+        },
+        {
+          "id": "554cefab",
+          "cat": "Actuator",
+          "score": 0.3631
+        },
+        {
+          "id": "b29d711e",
+          "cat": "Actuator",
+          "score": 0.3594
+        }
+      ]
+    },
+    {
+      "query": "H adapter sleeve bearing mount",
+      "type": "text",
+      "recall_at": {
+        "1": 0.1,
+        "3": 0.3,
+        "5": 0.5,
+        "10": 1.0
+      },
+      "precision_at": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0,
+        "10": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "latency": 0.0362,
+      "top_results": [
+        {
+          "id": "9da78250",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3182
+        },
+        {
+          "id": "e172f249",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3148
+        },
+        {
+          "id": "501c406e",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3122
+        },
+        {
+          "id": "af5d7be1",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3121
+        },
+        {
+          "id": "d7fbe452",
+          "cat": "Bearings_with_Holder",
+          "score": 0.3118
+        }
+      ]
+    },
+    {
+      "query": "H 어댑터 슬리브 베어링 마운트",
+      "type": "text",
+      "recall_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "precision_at": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0,
+        "10": 0.0
+      },
+      "reciprocal_rank": 0.0,
+      "latency": 0.0348,
+      "top_results": [
+        {
+          "id": "257a3d58",
+          "cat": "Actuator",
+          "score": 0.446
+        },
+        {
+          "id": "be3ed108",
+          "cat": "Actuator",
+          "score": 0.4437
+        },
+        {
+          "id": "4f156e9b",
+          "cat": "Actuator",
+          "score": 0.4365
+        },
+        {
+          "id": "fa0ed63e",
+          "cat": "Actuator",
+          "score": 0.4328
+        },
+        {
+          "id": "c30e5468",
+          "cat": "Actuator",
+          "score": 0.4306
+        }
+      ]
+    }
+  ]
+}

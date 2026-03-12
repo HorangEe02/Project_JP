@@ -1,0 +1,525 @@
+{
+  "timestamp": "2026-03-06T15:47:47.947720",
+  "total_queries": 142,
+  "en_queries": 71,
+  "kr_queries": 71,
+  "metrics": {
+    "recall_at_1": 0.0757,
+    "recall_at_3": 0.2042,
+    "recall_at_5": 0.331,
+    "recall_at_10": 0.6549,
+    "precision_at_5": 0.6394,
+    "mrr": 0.6549,
+    "avg_latency": 0.1002,
+    "en_recall_at_5": 0.3239,
+    "kr_recall_at_5": 0.338,
+    "en_mrr": 0.6479,
+    "kr_mrr": 0.662
+  },
+  "baseline": {
+    "recall_at_1": 0.0761,
+    "recall_at_3": 0.2223,
+    "recall_at_5": 0.3685,
+    "recall_at_10": 0.7394,
+    "precision_at_5": 0.7296,
+    "mrr": 0.7347,
+    "avg_latency": 0.1009,
+    "en_recall_at_5": 0.3427,
+    "kr_recall_at_5": 0.3944,
+    "en_mrr": 0.6808,
+    "kr_mrr": 0.7887
+  },
+  "failed_count": 49,
+  "failed_queries": [
+    {
+      "query": "set collar clamp type",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "액추에이터 구동",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "슬라이드 레일 인출",
+      "top5_cats": [
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts"
+      ]
+    },
+    {
+      "query": "hinge pin door pivot",
+      "top5_cats": [
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins"
+      ]
+    },
+    {
+      "query": "conveyor belt gravity roller",
+      "top5_cats": [
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts"
+      ]
+    },
+    {
+      "query": "gear spur helical bevel",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "clamp toggle hold down",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "inspection gauge measurement jig",
+      "top5_cats": [
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles"
+      ]
+    },
+    {
+      "query": "검사 게이지 측정 지그",
+      "top5_cats": [
+        "Actuator",
+        "Actuator",
+        "Actuator",
+        "Actuator",
+        "Actuator"
+      ]
+    },
+    {
+      "query": "simplified adjustment unit fine",
+      "top5_cats": [
+        "Misc",
+        "Misc",
+        "Misc",
+        "Misc",
+        "Misc"
+      ]
+    },
+    {
+      "query": "stage xy precision positioning",
+      "top5_cats": [
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts"
+      ]
+    },
+    {
+      "query": "image processing camera lens mount",
+      "top5_cats": [
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts"
+      ]
+    },
+    {
+      "query": "화상처리 카메라 렌즈 마운트",
+      "top5_cats": [
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts"
+      ]
+    },
+    {
+      "query": "리브 앵글 플레이트 보강재",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "miscellaneous hardware parts",
+      "top5_cats": [
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories"
+      ]
+    },
+    {
+      "query": "rod threaded connecting link",
+      "top5_cats": [
+        "Couplings",
+        "Couplings",
+        "Couplings",
+        "Couplings",
+        "Couplings"
+      ]
+    },
+    {
+      "query": "로드 연결봉 나사",
+      "top5_cats": [
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles"
+      ]
+    },
+    {
+      "query": "우레탄 러버 패드 쿠션",
+      "top5_cats": [
+        "Levers",
+        "Levers",
+        "Levers",
+        "Levers",
+        "Levers"
+      ]
+    },
+    {
+      "query": "antivibration mount damper isolator",
+      "top5_cats": [
+        "Manifolds",
+        "Manifolds",
+        "Manifolds",
+        "Manifolds",
+        "Manifolds"
+      ]
+    },
+    {
+      "query": "방진 마운트 댐퍼 방진고무",
+      "top5_cats": [
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts",
+        "Posts"
+      ]
+    },
+    {
+      "query": "알루미늄 프레임 압출 프로파일",
+      "top5_cats": [
+        "Slide_Rails",
+        "Slide_Rails",
+        "Slide_Rails",
+        "Slide_Rails",
+        "Slide_Rails"
+      ]
+    },
+    {
+      "query": "액세서리 하드웨어 노브 핸들",
+      "top5_cats": [
+        "Levers",
+        "Levers",
+        "Levers",
+        "Levers",
+        "Levers"
+      ]
+    },
+    {
+      "query": "cover panel enclosure shield",
+      "top5_cats": [
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Misc",
+        "Misc"
+      ]
+    },
+    {
+      "query": "LED 조명 스트립 라이팅",
+      "top5_cats": [
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts"
+      ]
+    },
+    {
+      "query": "캐스터 바퀴 회전 잠금",
+      "top5_cats": [
+        "Ball_Splines",
+        "Ball_Splines",
+        "Ball_Splines",
+        "Ball_Splines",
+        "Ball_Splines"
+      ]
+    },
+    {
+      "query": "매니폴드 공압 공기 분배",
+      "top5_cats": [
+        "Springs",
+        "Springs",
+        "Springs",
+        "Springs",
+        "Springs"
+      ]
+    },
+    {
+      "query": "위생 탱크 진공 용기",
+      "top5_cats": [
+        "Cylinders",
+        "Cylinders",
+        "Cylinders",
+        "Cylinders",
+        "Cylinders"
+      ]
+    },
+    {
+      "query": "heater cartridge band heating",
+      "top5_cats": [
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories"
+      ]
+    },
+    {
+      "query": "히터 카트리지 밴드 가열",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "angle bracket L-shape steel",
+      "top5_cats": [
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts",
+        "Shafts"
+      ]
+    },
+    {
+      "query": "bracket mounting plate support",
+      "top5_cats": [
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft"
+      ]
+    },
+    {
+      "query": "브래킷 마운팅 플레이트 지지",
+      "top5_cats": [
+        "Ribs_and_Angle_Plates",
+        "Ribs_and_Angle_Plates",
+        "Ribs_and_Angle_Plates",
+        "Ribs_and_Angle_Plates",
+        "Ribs_and_Angle_Plates"
+      ]
+    },
+    {
+      "query": "UCP pillow block bearing unit",
+      "top5_cats": [
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder"
+      ]
+    },
+    {
+      "query": "UKP 어댑터 슬리브 필로우 블록",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "UCF square flange bearing unit",
+      "top5_cats": [
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder"
+      ]
+    },
+    {
+      "query": "UKFL adapter sleeve flange bearing",
+      "top5_cats": [
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles",
+        "Fitting_and_Nozzles"
+      ]
+    },
+    {
+      "query": "UKFL 어댑터 슬리브 플랜지 베어링",
+      "top5_cats": [
+        "bearing_UKFC",
+        "bearing_UKFC",
+        "bearing_UKFC",
+        "bearing_UKFC",
+        "bearing_UKFC"
+      ]
+    },
+    {
+      "query": "UCFC 원형 플랜지 카트리지 베어링",
+      "top5_cats": [
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder",
+        "Bearings_with_Holder"
+      ]
+    },
+    {
+      "query": "UKFC adapter round cartridge bearing",
+      "top5_cats": [
+        "Misc",
+        "Misc",
+        "Misc",
+        "Misc",
+        "Misc"
+      ]
+    },
+    {
+      "query": "UKFC 어댑터 원형 카트리지 베어링",
+      "top5_cats": [
+        "Cylinders",
+        "Cylinders",
+        "Cylinders",
+        "Cylinders",
+        "Cylinders"
+      ]
+    },
+    {
+      "query": "UKFS adapter adjustable flange",
+      "top5_cats": [
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories",
+        "Accessories"
+      ]
+    },
+    {
+      "query": "UKFS 어댑터 조정 플랜지",
+      "top5_cats": [
+        "Springs",
+        "Pipe_Frames",
+        "Springs",
+        "Springs",
+        "Pipe_Frames"
+      ]
+    },
+    {
+      "query": "UCT take-up bearing unit tensioner",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "UCT 테이크업 베어링 유닛 텐셔너",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "UKT adapter take-up bearing",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "UKT 어댑터 테이크업 베어링",
+      "top5_cats": [
+        "Actuator",
+        "Actuator",
+        "Actuator",
+        "Actuator",
+        "Actuator"
+      ]
+    },
+    {
+      "query": "SN plummer block split housing",
+      "top5_cats": [
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft",
+        "Holders_for_Shaft"
+      ]
+    },
+    {
+      "query": "take-up frame bearing tensioning",
+      "top5_cats": [
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys",
+        "Timing_Pulleys"
+      ]
+    },
+    {
+      "query": "테이크업 프레임 베어링 장력 조정",
+      "top5_cats": [
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins",
+        "Locating_Pins"
+      ]
+    }
+  ]
+}

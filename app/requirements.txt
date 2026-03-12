@@ -1,0 +1,44 @@
+# DrawingLLM - Requirements
+# Python 3.10+
+
+# === Core AI ===
+# CLIP: 고정 커밋 해시로 재현성 보장 (보안: unpinned main branch → 특정 커밋)
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+torch>=2.0.0,<2.6.0
+torchvision>=0.15.0,<0.21.0
+sentence-transformers>=2.2.0,<3.0.0
+ultralytics>=8.1.0,<8.4.0
+
+# === OCR ===
+paddlepaddle>=2.5.0,<3.0.0
+paddleocr>=2.7.0,<2.10.0
+
+# === Vector Database ===
+chromadb>=1.0.0,<2.0.0
+
+# === LLM Interface ===
+ollama>=0.3.0,<1.0.0
+httpx>=0.25.0,<0.28.0
+
+# === Image Processing ===
+Pillow>=10.0.0,<11.0.0
+pdf2image>=1.16.0,<2.0.0
+
+# === Backend ===
+fastapi>=0.100.0,<1.0.0
+uvicorn>=0.23.0,<1.0.0
+python-multipart>=0.0.6,<0.1.0
+
+# === Frontend ===
+streamlit>=1.30.0,<2.0.0
+
+# === Utilities ===
+pydantic>=2.0.0,<3.0.0
+pydantic-settings>=2.0.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+loguru>=0.7.0,<1.0.0
+tqdm>=4.65.0,<5.0.0
+numpy>=1.24.0,<2.0.0
+
+# === Testing ===
+pytest>=7.0.0,<9.0.0

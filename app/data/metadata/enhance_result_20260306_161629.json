@@ -1,0 +1,17 @@
+{
+  "action": "enhance_embeddings",
+  "timestamp": "2026-03-06T16:16:29.185919",
+  "text_format": "{short_keywords} {ocr_text} {category}",
+  "model": "intfloat/multilingual-e5-small",
+  "e5_prefix": "passage",
+  "total_processed": 61473,
+  "stats": {
+    "with_keywords": 61471,
+    "fallback": 2
+  },
+  "elapsed_seconds": 60.04,
+  "no_keyword_categories": [
+    ""
+  ],
+  "keywords_file": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-llm/data/category_keywords.json"
+}

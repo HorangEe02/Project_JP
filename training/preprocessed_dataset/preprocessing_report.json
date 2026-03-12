@@ -1,0 +1,35 @@
+{
+  "step": "4-C: Dataset Split",
+  "timestamp": "2026-03-09 22:50:21",
+  "config": {
+    "seed": 42,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "patent_grouping": true,
+    "overrides": null
+  },
+  "summary": {
+    "total_categories": 82,
+    "total_images": 61713,
+    "train": 49337,
+    "val": 6143,
+    "test": 6232,
+    "patent_grouped_images": 0
+  },
+  "leakage": {
+    "status": "CLEAN",
+    "details": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  },
+  "outputs": {
+    "yolo_yaml": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset/dataset.yaml",
+    "clip_train_csv": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset/train.csv",
+    "clip_val_csv": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset/val.csv",
+    "clip_test_csv": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset/test.csv",
+    "manifest": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset/split_manifest.json"
+  }
+}

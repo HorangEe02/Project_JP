@@ -1,0 +1,14 @@
+# YOLOv8-det 도면 영역 탐지 데이터셋
+# 생성: scripts/prepare_det_dataset.py
+
+path: /Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-llm/data/det_dataset
+train: images/train
+val: images/val
+
+# 탐지 클래스 (3개)
+names:
+  0: title_block       # 표제란 (도번, 재질, 척도, 날짜 등)
+  1: dimension_area     # 치수 영역 (치수 주석 집중 영역)
+  2: parts_table        # 부품표 (BOM 테이블)
+
+nc: 3

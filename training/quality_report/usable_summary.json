@@ -1,0 +1,38 @@
+{
+  "uspto_ppubs": {
+    "description": "USPTO PPUBS 특허 도면",
+    "count": 3254
+  },
+  "google_patents": {
+    "description": "Google Patents 도면",
+    "count": 510
+  },
+  "grabcad": {
+    "description": "GrabCAD 커뮤니티 도면",
+    "count": 799
+  },
+  "kaggle_airbag": {
+    "description": "Kaggle Airbag CAD Drawing",
+    "count": 60000
+  },
+  "kaggle_2d": {
+    "description": "Kaggle 2D Engineering Drawings",
+    "count": 7
+  },
+  "archive_org": {
+    "description": "미군 기술 매뉴얼 도면 (Archive.org)",
+    "count": 5825
+  },
+  "synthetic_basic": {
+    "description": "합성 도면 (기본)",
+    "count": 1000
+  },
+  "synthetic_enhanced": {
+    "description": "합성 도면 (향상된 버전)",
+    "count": 1360
+  },
+  "google_images": {
+    "description": "Wikimedia Commons CC 이미지",
+    "count": 3
+  }
+}

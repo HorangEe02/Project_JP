@@ -1,0 +1,415 @@
+{
+  "_description": "OCR 벤치마크 Ground Truth (자동생성 + 파일명 기반 부품번호)",
+  "_note": "파일명=MiSUMi 부품번호를 GT로 사용. OCR 추출 결과를 참고 GT로 포함.",
+  "images": [
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/Unit_bearing_png/10.UKFS/UKFS306+H2306X.png",
+      "part_numbers": [
+        "UKFS306+H2306X"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/abge7010.png",
+      "part_numbers": [
+        "ABGE7010"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/54_Fitting_and_Nozzles/abnz05.png",
+      "part_numbers": [
+        "ABNZ05"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/54_Fitting_and_Nozzles/abnzm06-2.5.png",
+      "part_numbers": [
+        "ABNZM06-2.5"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/54_Fitting_and_Nozzles/abnzm06.png",
+      "part_numbers": [
+        "ABNZM06"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/55_Cylinders/achlb-6-e.png",
+      "part_numbers": [
+        "ACHLB-6-E"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/55_Cylinders/achpb-4-k-33.5.png",
+      "part_numbers": [
+        "ACHPB-4-K-33.5"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/55_Cylinders/achpb-6-e-17.5.png",
+      "part_numbers": [
+        "ACHPB-6-E-17.5"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/19_Timing_Pulleys/ahtfw16-at10150-12.png",
+      "part_numbers": [
+        "AHTFW16-AT10150-12",
+        "710150",
+        "10150",
+        "W16-A710150"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/38_Springs/aipoz04.png",
+      "part_numbers": [
+        "AIPOZ04"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/23_Locating_&_Guide_Components/anb05.png",
+      "part_numbers": [
+        "ANB05"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/32_Posts/aspy40.png",
+      "part_numbers": [
+        "ASPY40"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/19_Timing_Pulleys/atpa30l075.png",
+      "part_numbers": [
+        "ATPA30L075",
+        "30075"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/08_Linear_Guides/be2kf28-340-30.png",
+      "part_numbers": [
+        "BE2KF28-340-30"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgbw6005zz.png",
+      "part_numbers": [
+        "BGBW6005ZZ",
+        "600522"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgp15-19.png",
+      "part_numbers": [
+        "BGP15-19"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgrz6006zz.png",
+      "part_numbers": [
+        "BGRZ6006ZZ"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgsa0628zz.png",
+      "part_numbers": [
+        "BGSA0628ZZ"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgsb6202zz.png",
+      "part_numbers": [
+        "BGSB6202ZZ"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bgsn6900zz.png",
+      "part_numbers": [
+        "BGSN6900ZZ"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bmiaｎ01-11.png",
+      "part_numbers": [
+        "BMIAＮ01-11"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bmsfc07.png",
+      "part_numbers": [
+        "BMSFC07"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bmsfc08.png",
+      "part_numbers": [
+        "BMSFC08"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bmsln02-44.png",
+      "part_numbers": [
+        "BMSLN02-44"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/19_Timing_Pulleys/bs2m26.png",
+      "part_numbers": [
+        "BS2M26"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/05_Ball_Splines/bsjn08.png",
+      "part_numbers": [
+        "BSJN08"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/10_Ball_Screws/bsts08.png",
+      "part_numbers": [
+        "BSTS08"
+      ],
+      "materials": [
+        "STS"
+      ],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/24_Plungers/bszf04.png",
+      "part_numbers": [
+        "BSZF04"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bta03.png",
+      "part_numbers": [
+        "BTA03"
+      ],
+      "materials": [],
+      "dimensions": [
+        "R1"
+      ]
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/bta07.png",
+      "part_numbers": [
+        "BTA07"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/btan02-11.png",
+      "part_numbers": [
+        "BTAN02-11"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/51_Manifolds/btlan04-22n.png",
+      "part_numbers": [
+        "BTLAN04-22N"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/52_Pipes_Fitting_Valves/btlh04-s.png",
+      "part_numbers": [
+        "BTLH04-S"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bvfc15.png",
+      "part_numbers": [
+        "BVFC15"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bvic32.png",
+      "part_numbers": [
+        "BVIC32"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/14_Bearings_with_Holder/bvis40.png",
+      "part_numbers": [
+        "BVIS40"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/05_Ball_Splines/byhz05-60-30.png",
+      "part_numbers": [
+        "BYHZ05-60-30"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/32_Posts/cap12.png",
+      "part_numbers": [
+        "CAP12"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/58_Angles/casa03-6030.png",
+      "part_numbers": [
+        "CASA03-6030"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/35_Screws/cbt10.png",
+      "part_numbers": [
+        "CBT10"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/21_Sprockets_and_Chains/chem60.png",
+      "part_numbers": [
+        "CHEM60"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/48_Casters/chepa100.png",
+      "part_numbers": [
+        "CHEPA100"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/34_Washers/cimw24.png",
+      "part_numbers": [
+        "CIMW24"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/49_Levers/cldfc06.png",
+      "part_numbers": [
+        "CLDFC06"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/55_Cylinders/clkwb15.png",
+      "part_numbers": [
+        "CLKWB15"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/13_Hinge_Pins/clsg13.png",
+      "part_numbers": [
+        "CLSG13"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/13_Hinge_Pins/clsg17.png",
+      "part_numbers": [
+        "CLSG17"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/48_Casters/cnga075.png",
+      "part_numbers": [
+        "CNGA075"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/17_Conveyors/cvsfd-06w.png",
+      "part_numbers": [
+        "CVSFD-06W"
+      ],
+      "materials": [],
+      "dimensions": []
+    },
+    {
+      "file_path": "/Volumes/Corsair EX300U Media/00_work_out/02_ing/CAD/data/MiSUMi_png/55_Cylinders/cypt25.png",
+      "part_numbers": [
+        "CYPT25"
+      ],
+      "materials": [],
+      "dimensions": []
+    }
+  ]
+}

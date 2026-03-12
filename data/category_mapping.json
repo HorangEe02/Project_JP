@@ -1,0 +1,235 @@
+{
+  "_meta": {
+    "description": "카테고리 매핑 테이블 - 신규 데이터셋 → 통합 분류 체계",
+    "date": "2026-03-08",
+    "strategy": "기존 72개 카테고리 유지 + 신규 카테고리 확장",
+    "existing_categories": 72,
+    "new_categories": 13,
+    "total_categories": 85,
+    "note": "image_processing(70), new_products(71)는 메타 카테고리로 학습 제외 권장"
+  },
+
+  "existing_categories": {
+    "0": "Accessories", "1": "Actuator", "2": "Aluminum_Frames", "3": "Angles",
+    "4": "Antivibration", "5": "Ball_Screws", "6": "Ball_Splines",
+    "7": "Bearings_with_Holder", "8": "Brackets", "9": "Casters",
+    "10": "Clamps", "11": "Contact_Probes", "12": "Conveyors", "13": "Couplings",
+    "14": "Cover_Panels", "15": "Cylinders", "16": "Fitting_and_Nozzles",
+    "17": "Flat_Belts_and_Round_Belts", "18": "Gears", "19": "Heaters",
+    "20": "Hinge_Pins", "21": "Holders_for_Shaft", "22": "Inspections",
+    "23": "Led_Lighting", "24": "Levers", "25": "Linear_Bushings",
+    "26": "Linear_Guides", "27": "Locating_Pins", "28": "Locating_and_Guide_Components",
+    "29": "Manifolds", "30": "Misc", "31": "Oil_Free_Bushings", "32": "Pipe_Frames",
+    "33": "Pipes_Fitting_Valves", "34": "Plungers", "35": "Posts", "36": "Pulls",
+    "37": "Resin_Plates", "38": "Ribs_and_Angle_Plates", "39": "Rods", "40": "Rollers",
+    "41": "Rotary_Shafts", "42": "Sanitary_Vacuum_Tanks", "43": "Screws",
+    "44": "Sensors", "45": "Set_Collars", "46": "Shafts",
+    "47": "Simplified_Adjustment_Units", "48": "Slide_Rails", "49": "Slide_Screws",
+    "50": "Springs", "51": "Sprockets_and_Chains", "52": "Stages",
+    "53": "Timing_Pulleys", "54": "Urethanes", "55": "Washers",
+    "56": "bearing_H_ADAPTER", "57": "bearing_SN플러머블록", "58": "bearing_TAKEUP",
+    "59": "bearing_UCF", "60": "bearing_UCFC", "61": "bearing_UCFL",
+    "62": "bearing_UCFS", "63": "bearing_UCP", "64": "bearing_UCT",
+    "65": "bearing_UKFC", "66": "bearing_UKFL", "67": "bearing_UKFS",
+    "68": "bearing_UKP", "69": "bearing_UKT",
+    "70": "image_processing", "71": "new_products"
+  },
+
+  "new_categories": {
+    "72": {"name": "Wheels", "description": "차륜, 휠, 림 (IPC B60B)"},
+    "73": {"name": "Tires", "description": "타이어, 튜브 (IPC B60C)"},
+    "74": {"name": "Suspension", "description": "서스펜션, 현가장치 (IPC B60G)"},
+    "75": {"name": "Brakes", "description": "브레이크 캘리퍼, 디스크, 패드 (IPC B60T)"},
+    "76": {"name": "Powertrain", "description": "파워트레인, 동력전달 (IPC B60K)"},
+    "77": {"name": "Clutches", "description": "클러치, 동력 단속 장치 (IPC F16D)"},
+    "78": {"name": "Pistons", "description": "피스톤, 피스톤 링, 크로스헤드 (IPC F16J)"},
+    "79": {"name": "Differential", "description": "차동장치, 디퍼렌셜 기어"},
+    "80": {"name": "Turbocharger", "description": "터보차저, 과급기"},
+    "81": {"name": "Bolts_and_Nuts", "description": "볼트, 너트 (Screws와 구분)"},
+    "82": {"name": "Flanges", "description": "플랜지, 플랜지 커플링"},
+    "83": {"name": "Housing", "description": "하우징, 케이스, 인클로저"},
+    "84": {"name": "Airbag_Module", "description": "에어백 모듈 CAD 도면"}
+  },
+
+  "source_mappings": {
+    "uspto_ppubs": {
+      "description": "USPTO PPUBS 특허 도면 → IPC 코드 기반 매핑",
+      "total_images": 3254,
+      "mappings": {
+        "B60B": {"target": "Wheels", "target_id": 72, "images": 228, "confidence": "high", "note": "차륜/림 특허 도면"},
+        "B60C": {"target": "Tires", "target_id": 73, "images": 79, "confidence": "high", "note": "타이어 특허 도면"},
+        "B60D": {"target": "Couplings", "target_id": 13, "images": 71, "confidence": "medium", "note": "차량 연결 장치 → 기존 Couplings에 매핑"},
+        "B60G": {"target": "Suspension", "target_id": 74, "images": 280, "confidence": "high", "note": "서스펜션 특허 도면"},
+        "B60K": {"target": "Powertrain", "target_id": 76, "images": 220, "confidence": "high", "note": "동력전달 특허 도면"},
+        "B60R": {"target": "Accessories", "target_id": 0, "images": 128, "confidence": "medium", "note": "차량 부속품 → 기존 Accessories에 매핑"},
+        "B60T": {"target": "Brakes", "target_id": 75, "images": 390, "confidence": "high", "note": "브레이크 특허 도면"},
+        "F16B": {"target": "Screws", "target_id": 43, "images": 192, "confidence": "medium", "note": "체결구 → 기존 Screws에 매핑 (볼트/리벳 포함)"},
+        "F16C": {"target": "Bearings_with_Holder", "target_id": 7, "images": 797, "confidence": "high", "note": "베어링 특허 도면"},
+        "F16D": {"target": "Clutches", "target_id": 77, "images": 223, "confidence": "high", "note": "클러치 특허 도면 (Couplings와 구분)"},
+        "F16H": {"target": "Gears", "target_id": 18, "images": 338, "confidence": "high", "note": "기어/변속기 특허 도면"},
+        "F16J": {"target": "Pistons", "target_id": 78, "images": 61, "confidence": "high", "note": "피스톤/실린더 헤드 특허 도면"},
+        "F16K": {"target": "Pipes_Fitting_Valves", "target_id": 33, "images": 160, "confidence": "high", "note": "밸브 특허 도면"},
+        "F16L": {"target": "Pipes_Fitting_Valves", "target_id": 33, "images": 87, "confidence": "medium", "note": "배관 특허 도면 → 기존 Pipes_Fitting_Valves에 통합"}
+      }
+    },
+
+    "google_patents": {
+      "description": "Google Patents 도면 → USPTO와 동일 IPC 매핑",
+      "total_images": 510,
+      "mappings": {
+        "B60G": {"target": "Suspension", "target_id": 74, "images": 100, "confidence": "high"},
+        "B60T": {"target": "Brakes", "target_id": 75, "images": 110, "confidence": "high"},
+        "F16C": {"target": "Bearings_with_Holder", "target_id": 7, "images": 100, "confidence": "high"},
+        "F16D": {"target": "Clutches", "target_id": 77, "images": 100, "confidence": "high"},
+        "F16H": {"target": "Gears", "target_id": 18, "images": 100, "confidence": "high"}
+      }
+    },
+
+    "grabcad": {
+      "description": "GrabCAD 커뮤니티 도면 → 부품명 기반 매핑",
+      "total_images": 799,
+      "mappings": {
+        "bearing":           {"target": "Bearings_with_Holder", "target_id": 7, "images": 97, "confidence": "high", "note": "3D 렌더링 포함 — 도메인 다양성 확보"},
+        "bolt_nut_fastener":  {"target": "Bolts_and_Nuts", "target_id": 81, "images": 55, "confidence": "high", "note": "볼트/너트 이미지 → Screws와 구분"},
+        "brake_caliper":      {"target": "Brakes", "target_id": 75, "images": 100, "confidence": "high"},
+        "clutch":             {"target": "Clutches", "target_id": 77, "images": 7, "confidence": "high"},
+        "differential":       {"target": "Differential", "target_id": 79, "images": 43, "confidence": "high"},
+        "disc_brake":         {"target": "Brakes", "target_id": 75, "images": 100, "confidence": "high", "note": "brake_caliper과 같은 Brakes로 통합"},
+        "engine_valve":       {"target": "Pipes_Fitting_Valves", "target_id": 33, "images": 78, "confidence": "medium", "note": "엔진 밸브 → 밸브류 통합"},
+        "gear_transmission":  {"target": "Gears", "target_id": 18, "images": 52, "confidence": "high"},
+        "pipe_fitting":       {"target": "Pipes_Fitting_Valves", "target_id": 33, "images": 60, "confidence": "high"},
+        "piston_cylinder":    {"target": "Pistons", "target_id": 78, "images": 71, "confidence": "high"},
+        "shaft_coupling":     {"target": "Couplings", "target_id": 13, "images": 23, "confidence": "high"},
+        "spring_mechanical":  {"target": "Springs", "target_id": 50, "images": 1, "confidence": "high"},
+        "suspension":         {"target": "Suspension", "target_id": 74, "images": 10, "confidence": "high"},
+        "turbocharger":       {"target": "Turbocharger", "target_id": 80, "images": 2, "confidence": "high"},
+        "wheel_hub":          {"target": "Wheels", "target_id": 72, "images": 100, "confidence": "high"}
+      }
+    },
+
+    "synthetic_basic": {
+      "description": "기본 합성 도면 → 부품 유형별 매핑",
+      "total_images": 1000,
+      "mappings": {
+        "bearing":  {"target": "Bearings_with_Holder", "target_id": 7, "images": 100, "confidence": "high"},
+        "bolt":     {"target": "Bolts_and_Nuts", "target_id": 81, "images": 100, "confidence": "high"},
+        "bracket":  {"target": "Brackets", "target_id": 8, "images": 100, "confidence": "high"},
+        "bushing":  {"target": "Oil_Free_Bushings", "target_id": 31, "images": 100, "confidence": "medium", "note": "Linear_Bushings(25)도 후보이나 형상 유사성으로 Oil_Free 선택"},
+        "flange":   {"target": "Flanges", "target_id": 82, "images": 100, "confidence": "high"},
+        "gear":     {"target": "Gears", "target_id": 18, "images": 100, "confidence": "high"},
+        "nut":      {"target": "Bolts_and_Nuts", "target_id": 81, "images": 100, "confidence": "high", "note": "bolt과 함께 Bolts_and_Nuts로 통합"},
+        "piston":   {"target": "Pistons", "target_id": 78, "images": 100, "confidence": "high"},
+        "shaft":    {"target": "Shafts", "target_id": 46, "images": 100, "confidence": "high"},
+        "spring":   {"target": "Springs", "target_id": 50, "images": 100, "confidence": "high"}
+      }
+    },
+
+    "synthetic_enhanced": {
+      "description": "향상된 합성 도면 → 부품 유형별 매핑 (너무 큰 파일 제외 후)",
+      "total_images": 1360,
+      "note": "flange_coupling 108장 중 99장 제외 (50MB 초과 98장 + 손상 1장)",
+      "mappings": {
+        "adapter":         {"target": "Flanges", "target_id": 82, "images": 100, "confidence": "medium", "note": "어댑터/변환 피팅 → Flanges에 근접"},
+        "bracket_mount":   {"target": "Brackets", "target_id": 8, "images": 267, "confidence": "high"},
+        "cover_plate":     {"target": "Cover_Panels", "target_id": 14, "images": 266, "confidence": "high"},
+        "flange_coupling": {"target": "Couplings", "target_id": 13, "images": 9, "confidence": "high", "note": "유효 이미지 9장만 (99장 제외됨)"},
+        "housing":         {"target": "Housing", "target_id": 83, "images": 100, "confidence": "high"},
+        "pulley":          {"target": "Timing_Pulleys", "target_id": 53, "images": 258, "confidence": "high"},
+        "shaft_assembly":  {"target": "Shafts", "target_id": 46, "images": 100, "confidence": "high"},
+        "valve_body":      {"target": "Pipes_Fitting_Valves", "target_id": 33, "images": 260, "confidence": "high"}
+      }
+    },
+
+    "kaggle_airbag": {
+      "description": "Kaggle Airbag CAD Drawing → 단일 신규 카테고리",
+      "total_images": 60000,
+      "mappings": {
+        "60k_png_1200x900": {"target": "Airbag_Module", "target_id": 84, "images": 60000, "confidence": "high", "note": "단일 카테고리, 학습 시 대폭 언더샘플링 필요 (권장: 500~1000장)"}
+      }
+    },
+
+    "archive_org": {
+      "description": "미군 기술 매뉴얼 도면 — 라벨 없음, 자동 분류 필요",
+      "total_images": 5825,
+      "mappings": {},
+      "labeling_strategy": {
+        "method": "auto_classification",
+        "description": "기존 YOLOv8-cls 모델로 1차 자동 분류 → 결과 검증 후 활용",
+        "steps": [
+          "1. 기존 YOLOv8-cls로 5,825장 예측",
+          "2. confidence ≥ 0.7인 이미지만 자동 라벨링 수용",
+          "3. confidence < 0.7인 이미지는 Misc로 분류하거나 제외",
+          "4. 자동 분류 결과 중 Suspension, Brakes 등 차량 부품 카테고리는 신규 카테고리로 재분류"
+        ],
+        "expected_categories": ["Gears", "Springs", "Bearings_with_Holder", "Cylinders", "Shafts", "Brakes", "Suspension", "Wheels"],
+        "note": "텍스트 위주 페이지 포함 가능 — 도면 vs 텍스트 필터링 선행 필요"
+      }
+    },
+
+    "kaggle_2d": {
+      "description": "Kaggle 2D Engineering Drawings — 7장, 수량 부족",
+      "total_images": 7,
+      "mappings": {},
+      "note": "7장으로 학습 효과 미미 — 검증/테스트 용도로만 활용 권장"
+    },
+
+    "google_images": {
+      "description": "Wikimedia Commons CC 이미지 — 3장, 수량 부족",
+      "total_images": 3,
+      "mappings": {},
+      "note": "3장으로 학습 효과 미미 — 검증/테스트 용도로만 활용 권장"
+    }
+  },
+
+  "unified_category_summary": {
+    "description": "통합 후 카테고리별 예상 이미지 수 (기존 + 신규 데이터)",
+    "categories": {
+      "Accessories": {"id": 0, "existing": true, "new_images": 128, "source": ["B60R→128"]},
+      "Bearings_with_Holder": {"id": 7, "existing": true, "new_images": 1094, "source": ["F16C_USPTO→797", "F16C_Google→100", "GrabCAD_bearing→97", "Synthetic_bearing→100"]},
+      "Brackets": {"id": 8, "existing": true, "new_images": 367, "source": ["Synthetic_bracket→100", "Enhanced_bracket_mount→267"]},
+      "Couplings": {"id": 13, "existing": true, "new_images": 103, "source": ["B60D→71", "GrabCAD_shaft_coupling→23", "Enhanced_flange_coupling→9"]},
+      "Cover_Panels": {"id": 14, "existing": true, "new_images": 266, "source": ["Enhanced_cover_plate→266"]},
+      "Gears": {"id": 18, "existing": true, "new_images": 590, "source": ["F16H_USPTO→338", "F16H_Google→100", "GrabCAD_gear→52", "Synthetic_gear→100"]},
+      "Oil_Free_Bushings": {"id": 31, "existing": true, "new_images": 100, "source": ["Synthetic_bushing→100"]},
+      "Pipes_Fitting_Valves": {"id": 33, "existing": true, "new_images": 645, "source": ["F16K→160", "F16L→87", "GrabCAD_engine_valve→78", "GrabCAD_pipe_fitting→60", "Enhanced_valve_body→260"]},
+      "Screws": {"id": 43, "existing": true, "new_images": 192, "source": ["F16B→192"]},
+      "Shafts": {"id": 46, "existing": true, "new_images": 200, "source": ["Synthetic_shaft→100", "Enhanced_shaft_assembly→100"]},
+      "Springs": {"id": 50, "existing": true, "new_images": 101, "source": ["Synthetic_spring→100", "GrabCAD_spring→1"]},
+      "Timing_Pulleys": {"id": 53, "existing": true, "new_images": 258, "source": ["Enhanced_pulley→258"]},
+      "Wheels": {"id": 72, "existing": false, "new_images": 328, "source": ["B60B→228", "GrabCAD_wheel_hub→100"]},
+      "Tires": {"id": 73, "existing": false, "new_images": 79, "source": ["B60C→79"]},
+      "Suspension": {"id": 74, "existing": false, "new_images": 390, "source": ["B60G_USPTO→280", "B60G_Google→100", "GrabCAD_suspension→10"]},
+      "Brakes": {"id": 75, "existing": false, "new_images": 700, "source": ["B60T_USPTO→390", "B60T_Google→110", "GrabCAD_brake_caliper→100", "GrabCAD_disc_brake→100"]},
+      "Powertrain": {"id": 76, "existing": false, "new_images": 220, "source": ["B60K→220"]},
+      "Clutches": {"id": 77, "existing": false, "new_images": 330, "source": ["F16D_USPTO→223", "F16D_Google→100", "GrabCAD_clutch→7"]},
+      "Pistons": {"id": 78, "existing": false, "new_images": 232, "source": ["F16J→61", "GrabCAD_piston_cylinder→71", "Synthetic_piston→100"]},
+      "Differential": {"id": 79, "existing": false, "new_images": 43, "source": ["GrabCAD_differential→43"]},
+      "Turbocharger": {"id": 80, "existing": false, "new_images": 2, "source": ["GrabCAD_turbocharger→2"]},
+      "Bolts_and_Nuts": {"id": 81, "existing": false, "new_images": 255, "source": ["GrabCAD_bolt_nut→55", "Synthetic_bolt→100", "Synthetic_nut→100"]},
+      "Flanges": {"id": 82, "existing": false, "new_images": 200, "source": ["Synthetic_flange→100", "Enhanced_adapter→100"]},
+      "Housing": {"id": 83, "existing": false, "new_images": 100, "source": ["Enhanced_housing→100"]},
+      "Airbag_Module": {"id": 84, "existing": false, "new_images": 60000, "source": ["Kaggle_Airbag→60000"], "undersample_to": 1000}
+    }
+  },
+
+  "unlabeled_data": {
+    "archive_org": {
+      "images": 5825,
+      "strategy": "auto_classify_then_verify",
+      "note": "기존 YOLOv8-cls + 신규 카테고리 모델로 자동 분류 후 편입"
+    },
+    "kaggle_2d": {"images": 7, "strategy": "test_only"},
+    "google_images": {"images": 3, "strategy": "test_only"}
+  },
+
+  "training_considerations": {
+    "undersample_airbag": "Airbag_Module 60,000장 → 500~1,000장으로 언더샘플링",
+    "low_count_categories": [
+      {"name": "Turbocharger", "count": 2, "note": "학습에 부족 — 추가 수집 또는 제외 검토"},
+      {"name": "Tires", "count": 79, "note": "소량이지만 학습 가능"},
+      {"name": "Differential", "count": 43, "note": "소량이지만 학습 가능"}
+    ],
+    "domain_gap_warning": "특허 도면(USPTO/Google), 3D 렌더링(GrabCAD), 합성 선화(Synthetic)는 시각적 특성이 다름 — 도메인 일반화에 기여하지만 혼합 비율 조절 필요",
+    "meta_categories_to_exclude": ["image_processing(70)", "new_products(71)"]
+  }
+}

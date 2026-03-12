@@ -1,0 +1,53 @@
+# === Data & Images (copyright-sensitive) ===
+data/MiSUMi_data/
+data/MiSUMi_png/
+data/Unit_bearing_*/
+data/sources/
+data/staged/
+data/normalized/
+archive/
+
+# === Model Weights ===
+*.pt
+*.pth
+!app/models/.gitkeep
+
+# === Vector Store / DB ===
+app/data/vector_store/
+app/data/metadata/*.backup*
+app/data/metadata/chroma.sqlite3*
+*.sqlite3
+*.sqlite3.*
+
+# === Cache ===
+*.cache
+__pycache__/
+.pytest_cache/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+logs/
+
+# === Personal ===
+etc/
+
+# === PDF (keep .md versions) ===
+*.pdf
+
+# === Training image data ===
+training/preprocessed_dataset/train/
+training/preprocessed_dataset/test/
+training/preprocessed_dataset/val/
+training/quality_report/valid_*.txt
+
+# === IDE ===
+.vscode/
+.idea/
+
+# === Env ===
+.env
+.env.local

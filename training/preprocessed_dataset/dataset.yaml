@@ -1,0 +1,93 @@
+# Preprocessed Dataset for YOLOv8-cls
+# Generated: 2026-03-10 (updated: Differential removed, index aligned)
+# Categories: 81
+# Images: 61711 (train 49337 / val 6142 / test 6232)
+
+path: /Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/preprocessed_dataset
+train: train
+val: val
+test: test
+
+# Categories (81) — alphabetical order matching directory names
+names:
+  0: Accessories
+  1: Actuator
+  2: Airbag_Module
+  3: Aluminum_Frames
+  4: Angles
+  5: Antivibration
+  6: Ball_Screws
+  7: Ball_Splines
+  8: Bearings_with_Holder
+  9: Bolts_and_Nuts
+  10: Brackets
+  11: Brakes
+  12: Casters
+  13: Clamps
+  14: Clutches
+  15: Contact_Probes
+  16: Conveyors
+  17: Couplings
+  18: Cover_Panels
+  19: Cylinders
+  20: Fitting_and_Nozzles
+  21: Flanges
+  22: Flat_Belts_and_Round_Belts
+  23: Gears
+  24: Heaters
+  25: Hinge_Pins
+  26: Holders_for_Shaft
+  27: Housing
+  28: Inspections
+  29: Led_Lighting
+  30: Levers
+  31: Linear_Bushings
+  32: Linear_Guides
+  33: Locating_Pins
+  34: Locating_and_Guide_Components
+  35: Manifolds
+  36: Misc
+  37: Oil_Free_Bushings
+  38: Pipe_Frames
+  39: Pipes_Fitting_Valves
+  40: Pistons
+  41: Plungers
+  42: Posts
+  43: Powertrain
+  44: Pulls
+  45: Resin_Plates
+  46: Ribs_and_Angle_Plates
+  47: Rods
+  48: Rollers
+  49: Rotary_Shafts
+  50: Sanitary_Vacuum_Tanks
+  51: Screws
+  52: Sensors
+  53: Set_Collars
+  54: Shafts
+  55: Simplified_Adjustment_Units
+  56: Slide_Rails
+  57: Slide_Screws
+  58: Springs
+  59: Sprockets_and_Chains
+  60: Stages
+  61: Suspension
+  62: Timing_Pulleys
+  63: Tires
+  64: Urethanes
+  65: Washers
+  66: Wheels
+  67: bearing_H_ADAPTER
+  68: bearing_SN플러머블록
+  69: bearing_TAKEUP
+  70: bearing_UCF
+  71: bearing_UCFC
+  72: bearing_UCFL
+  73: bearing_UCFS
+  74: bearing_UCP
+  75: bearing_UCT
+  76: bearing_UKFC
+  77: bearing_UKFL
+  78: bearing_UKFS
+  79: bearing_UKP
+  80: bearing_UKT

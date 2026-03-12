@@ -1,0 +1,367 @@
+{
+  "total_classes": 72,
+  "total_train": 52392,
+  "total_val": 9204,
+  "per_class": {
+    "Accessories": {
+      "train": 352,
+      "val": 61,
+      "total": 413
+    },
+    "Actuator": {
+      "train": 2797,
+      "val": 493,
+      "total": 3290
+    },
+    "Aluminum_Frames": {
+      "train": 754,
+      "val": 132,
+      "total": 886
+    },
+    "Angles": {
+      "train": 94,
+      "val": 16,
+      "total": 110
+    },
+    "Antivibration": {
+      "train": 271,
+      "val": 47,
+      "total": 318
+    },
+    "Ball_Screws": {
+      "train": 346,
+      "val": 60,
+      "total": 406
+    },
+    "Ball_Splines": {
+      "train": 666,
+      "val": 117,
+      "total": 783
+    },
+    "Bearings_with_Holder": {
+      "train": 2596,
+      "val": 457,
+      "total": 3053
+    },
+    "Brackets": {
+      "train": 133,
+      "val": 23,
+      "total": 156
+    },
+    "Casters": {
+      "train": 713,
+      "val": 125,
+      "total": 838
+    },
+    "Clamps": {
+      "train": 116,
+      "val": 20,
+      "total": 136
+    },
+    "Contact_Probes": {
+      "train": 82,
+      "val": 14,
+      "total": 96
+    },
+    "Conveyors": {
+      "train": 94,
+      "val": 16,
+      "total": 110
+    },
+    "Couplings": {
+      "train": 386,
+      "val": 68,
+      "total": 454
+    },
+    "Cover_Panels": {
+      "train": 14,
+      "val": 2,
+      "total": 16
+    },
+    "Cylinders": {
+      "train": 2616,
+      "val": 461,
+      "total": 3077
+    },
+    "Fitting_and_Nozzles": {
+      "train": 2904,
+      "val": 512,
+      "total": 3416
+    },
+    "Flat_Belts_and_Round_Belts": {
+      "train": 672,
+      "val": 118,
+      "total": 790
+    },
+    "Gears": {
+      "train": 938,
+      "val": 165,
+      "total": 1103
+    },
+    "Heaters": {
+      "train": 298,
+      "val": 52,
+      "total": 350
+    },
+    "Hinge_Pins": {
+      "train": 850,
+      "val": 150,
+      "total": 1000
+    },
+    "Holders_for_Shaft": {
+      "train": 1736,
+      "val": 306,
+      "total": 2042
+    },
+    "Inspections": {
+      "train": 543,
+      "val": 95,
+      "total": 638
+    },
+    "Led_Lighting": {
+      "train": 69,
+      "val": 12,
+      "total": 81
+    },
+    "Levers": {
+      "train": 1423,
+      "val": 250,
+      "total": 1673
+    },
+    "Linear_Bushings": {
+      "train": 2128,
+      "val": 375,
+      "total": 2503
+    },
+    "Linear_Guides": {
+      "train": 1109,
+      "val": 195,
+      "total": 1304
+    },
+    "Locating_Pins": {
+      "train": 3305,
+      "val": 583,
+      "total": 3888
+    },
+    "Locating_and_Guide_Components": {
+      "train": 873,
+      "val": 153,
+      "total": 1026
+    },
+    "Manifolds": {
+      "train": 790,
+      "val": 139,
+      "total": 929
+    },
+    "Misc": {
+      "train": 629,
+      "val": 111,
+      "total": 740
+    },
+    "Oil_Free_Bushings": {
+      "train": 835,
+      "val": 147,
+      "total": 982
+    },
+    "Pipe_Frames": {
+      "train": 156,
+      "val": 27,
+      "total": 183
+    },
+    "Pipes_Fitting_Valves": {
+      "train": 2312,
+      "val": 408,
+      "total": 2720
+    },
+    "Plungers": {
+      "train": 477,
+      "val": 84,
+      "total": 561
+    },
+    "Posts": {
+      "train": 1339,
+      "val": 236,
+      "total": 1575
+    },
+    "Pulls": {
+      "train": 461,
+      "val": 81,
+      "total": 542
+    },
+    "Resin_Plates": {
+      "train": 16,
+      "val": 2,
+      "total": 18
+    },
+    "Ribs_and_Angle_Plates": {
+      "train": 493,
+      "val": 87,
+      "total": 580
+    },
+    "Rods": {
+      "train": 181,
+      "val": 31,
+      "total": 212
+    },
+    "Rollers": {
+      "train": 865,
+      "val": 152,
+      "total": 1017
+    },
+    "Rotary_Shafts": {
+      "train": 493,
+      "val": 87,
+      "total": 580
+    },
+    "Sanitary_Vacuum_Tanks": {
+      "train": 650,
+      "val": 114,
+      "total": 764
+    },
+    "Screws": {
+      "train": 838,
+      "val": 147,
+      "total": 985
+    },
+    "Sensors": {
+      "train": 288,
+      "val": 50,
+      "total": 338
+    },
+    "Set_Collars": {
+      "train": 1972,
+      "val": 348,
+      "total": 2320
+    },
+    "Shafts": {
+      "train": 2297,
+      "val": 405,
+      "total": 2702
+    },
+    "Simplified_Adjustment_Units": {
+      "train": 232,
+      "val": 40,
+      "total": 272
+    },
+    "Slide_Rails": {
+      "train": 748,
+      "val": 132,
+      "total": 880
+    },
+    "Slide_Screws": {
+      "train": 459,
+      "val": 80,
+      "total": 539
+    },
+    "Springs": {
+      "train": 737,
+      "val": 129,
+      "total": 866
+    },
+    "Sprockets_and_Chains": {
+      "train": 454,
+      "val": 79,
+      "total": 533
+    },
+    "Stages": {
+      "train": 1435,
+      "val": 253,
+      "total": 1688
+    },
+    "Timing_Pulleys": {
+      "train": 3120,
+      "val": 550,
+      "total": 3670
+    },
+    "Urethanes": {
+      "train": 153,
+      "val": 27,
+      "total": 180
+    },
+    "Washers": {
+      "train": 312,
+      "val": 55,
+      "total": 367
+    },
+    "bearing_H_ADAPTER": {
+      "train": 19,
+      "val": 3,
+      "total": 22
+    },
+    "bearing_SN플러머블록": {
+      "train": 46,
+      "val": 7,
+      "total": 53
+    },
+    "bearing_TAKEUP": {
+      "train": 8,
+      "val": 1,
+      "total": 9
+    },
+    "bearing_UCF": {
+      "train": 47,
+      "val": 8,
+      "total": 55
+    },
+    "bearing_UCFC": {
+      "train": 29,
+      "val": 4,
+      "total": 33
+    },
+    "bearing_UCFL": {
+      "train": 32,
+      "val": 5,
+      "total": 37
+    },
+    "bearing_UCFS": {
+      "train": 18,
+      "val": 3,
+      "total": 21
+    },
+    "bearing_UCP": {
+      "train": 67,
+      "val": 11,
+      "total": 78
+    },
+    "bearing_UCT": {
+      "train": 33,
+      "val": 5,
+      "total": 38
+    },
+    "bearing_UKFC": {
+      "train": 12,
+      "val": 1,
+      "total": 13
+    },
+    "bearing_UKFL": {
+      "train": 28,
+      "val": 4,
+      "total": 32
+    },
+    "bearing_UKFS": {
+      "train": 17,
+      "val": 2,
+      "total": 19
+    },
+    "bearing_UKP": {
+      "train": 17,
+      "val": 3,
+      "total": 20
+    },
+    "bearing_UKT": {
+      "train": 27,
+      "val": 4,
+      "total": 31
+    },
+    "image_processing": {
+      "train": 71,
+      "val": 12,
+      "total": 83
+    },
+    "new_products": {
+      "train": 301,
+      "val": 52,
+      "total": 353
+    }
+  }
+}

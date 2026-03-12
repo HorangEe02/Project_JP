@@ -1,0 +1,24 @@
+{
+  "model": "ViT-B/32",
+  "pretrained": "openai",
+  "embedding_dim": 512,
+  "batch_size": 64,
+  "epochs": 30,
+  "lr": 1e-05,
+  "warmup_steps": 500,
+  "weight_decay": 0.1,
+  "precision": "amp",
+  "lock_image_tower_epochs": 5,
+  "dataset": {
+    "train_csv": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/clip_finetune_dataset/train.csv",
+    "val_csv": "/Volumes/Corsair EX300U Media/00_work_out/01_complete/me/01_CAD/drawing-datasets/clip_finetune_dataset/val.csv",
+    "total_train": 52491,
+    "total_val": 9222
+  },
+  "notes": [
+    "Fine-tune OpenAI CLIP ViT-B/32 for engineering drawing classification",
+    "Image tower locked for first 5 epochs (warm up text encoder first)",
+    "Low learning rate to preserve pre-trained knowledge",
+    "AMP (mixed precision) for M4 Pro MPS acceleration"
+  ]
+}

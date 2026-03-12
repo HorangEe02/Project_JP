@@ -1,0 +1,14 @@
+{
+  "task": "detection",
+  "classes": [
+    "title_block",
+    "dimension_area",
+    "parts_table"
+  ],
+  "num_classes": 3,
+  "total_images": 2000,
+  "train_images": 1700,
+  "val_images": 300,
+  "categories_sampled_from": 72,
+  "note": "labels require manual annotation (CVAT/LabelImg)"
+}

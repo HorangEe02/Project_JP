@@ -1,0 +1,18 @@
+{
+  "train": {
+    "total": 1700,
+    "title_block": 2673,
+    "dimension_area": 3632,
+    "parts_table": 0,
+    "empty": 24,
+    "errors": 0
+  },
+  "val": {
+    "total": 300,
+    "title_block": 502,
+    "dimension_area": 646,
+    "parts_table": 0,
+    "empty": 5,
+    "errors": 0
+  }
+}

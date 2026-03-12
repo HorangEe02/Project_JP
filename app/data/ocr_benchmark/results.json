@@ -1,0 +1,63 @@
+{
+  "benchmark_images": 50,
+  "baseline": {
+    "part_numbers": {
+      "macro_precision": 0.06,
+      "macro_recall": 0.035,
+      "macro_f1": 0.0438,
+      "total_tp": 5,
+      "total_fp": 0,
+      "total_fn": 50
+    },
+    "materials": {
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "total_tp": 1,
+      "total_fp": 0,
+      "total_fn": 0
+    },
+    "dimensions": {
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "total_tp": 1,
+      "total_fp": 0,
+      "total_fn": 0
+    },
+    "time_seconds": 50.5
+  },
+  "enhanced": {
+    "part_numbers": {
+      "macro_precision": 0.06,
+      "macro_recall": 0.035,
+      "macro_f1": 0.0438,
+      "total_tp": 5,
+      "total_fp": 0,
+      "total_fn": 50
+    },
+    "materials": {
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "total_tp": 1,
+      "total_fp": 0,
+      "total_fn": 0
+    },
+    "dimensions": {
+      "macro_precision": 1.0,
+      "macro_recall": 1.0,
+      "macro_f1": 1.0,
+      "total_tp": 1,
+      "total_fp": 0,
+      "total_fn": 0
+    },
+    "time_seconds": 55.7,
+    "total_regions_detected": 73
+  },
+  "improvement": {
+    "part_numbers_f1_delta": 0.0,
+    "materials_f1_delta": 0.0,
+    "dimensions_f1_delta": 0.0
+  }
+}
